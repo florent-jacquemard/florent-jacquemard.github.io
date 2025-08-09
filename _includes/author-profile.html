@@ -41,6 +41,9 @@
       {% if author.academia %}
         <li><a href="{{ author.academia }}"><i class="ai ai-academia ai-fw icon-pad-right" aria-hidden="true"></i>Academia</a></li>
       {% endif %}
+	  {% if author.hal %}
+	    <li><a href="{{ author.hal }}"><i class="ai ai-hal ai-fw icon-pad-right"></i>HAL</a></li>
+	  {% endif %}
       {% if author.arxiv %}
         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
       {% endif %}      
@@ -67,9 +70,6 @@
       {% endif %}
       {% if author.inspire-hep %}
         <li><a href="{{ author.inspire-hep }}"><i class="ai ai-inspire ai-fw icon-pad-right"></i>INSPIRE-HEP</a></li>
-      {% endif %}
-      {% if author.hal %}
-	    <li><a href="{{ author.hal }}"><i class="ai ai-hal ai-fw icon-pad-right"></i>HAL</a></li>
       {% endif %}
 
       <!-- Font Awesome icons / Repositories and software development -->
