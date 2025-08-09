@@ -28,7 +28,7 @@ author:
   bio              : "Research Scientist"
   location         : "2 rue Conté, 75003 Paris, France"
   employer         : "INRIA"
-  uri              : "https://inria.fr"
+  uri              : "https://florent-jacquemard.github.io" # "https://inria.fr"
   email            : "florent.jacquemard@inria.fr" 
 
   # Academic websites
@@ -48,6 +48,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "florento"
+  gitlabinria      : "jacquema"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
