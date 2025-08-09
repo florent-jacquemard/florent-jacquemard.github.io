@@ -1,6 +1,7 @@
 ---
 title: "Engraving Oriented Joint Estimation of Pitch Spelling and Local and Global Keys"
 collection: publications
+category: conferences
 permalink: /publication/2024-04-01-Engraving-Oriented-Joint-Estimation-of-Pitch-Spelling-and-Local-and-Global-Keys
 date: 2024-04-01
 venue: 'In the proceedings of International Conference on Technologies for Music Notation and Representation (TENOR)'

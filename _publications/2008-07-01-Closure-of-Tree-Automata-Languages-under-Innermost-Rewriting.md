@@ -1,6 +1,7 @@
 ---
 title: "Closure of Tree Automata Languages under Innermost Rewriting"
 collection: publications
+category: conferences
 permalink: /publication/2008-07-01-Closure-of-Tree-Automata-Languages-under-Innermost-Rewriting
 date: 2008-07-01
 venue: 'In the proceedings of Proceedings of the 8th International Workshop on Reduction Strategies in Rewriting and Programming (WRS 2008)'

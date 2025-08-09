@@ -1,6 +1,7 @@
 ---
 title: "Closure of Hedge-Automata Languages by Hedge Rewriting"
 collection: publications
+category: conferences
 permalink: /publication/2008-01-01-Closure-of-Hedge-Automata-Languages-by-Hedge-Rewriting
 date: 2008-01-01
 venue: 'In the proceedings of Lecture Notes in Computer Science'

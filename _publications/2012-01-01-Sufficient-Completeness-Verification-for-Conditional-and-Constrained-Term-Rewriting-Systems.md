@@ -1,6 +1,6 @@
 ---
 title: "Sufficient Completeness Verification for Conditional and Constrained Term Rewriting Systems"
-collection: publications
+collection: manuscripts
 permalink: /publication/2012-01-01-Sufficient-Completeness-Verification-for-Conditional-and-Constrained-Term-Rewriting-Systems
 date: 2012-01-01
 venue: 'Journal of Applied Logic'

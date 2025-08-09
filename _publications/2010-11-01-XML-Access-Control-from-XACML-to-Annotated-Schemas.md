@@ -1,6 +1,7 @@
 ---
 title: "XML Access Control: from XACML to Annotated Schemas"
 collection: publications
+
 permalink: /publication/2010-11-01-XML-Access-Control-from-XACML-to-Annotated-Schemas
 date: 2010-11-01
 venue: 'In the proceedings of Second International Conference on Communications and Networking (ComNet)'

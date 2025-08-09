@@ -1,6 +1,7 @@
 ---
 title: "Interactive Music Transcription based on Rhythm Tree Languages"
 collection: publications
+category: conferences
 permalink: /publication/2017-07-01-Interactive-Music-Transcription-based-on-Rhythm-Tree-Languages
 date: 2017-07-01
 venue: 'In the proceedings of 16th Rhythm Production and Perception Workshop'

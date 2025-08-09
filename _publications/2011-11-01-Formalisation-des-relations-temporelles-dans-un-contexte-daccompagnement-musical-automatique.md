@@ -1,6 +1,7 @@
 ---
 title: "Formalisation des relations temporelles dans un contexte d&apos;accompagnement musical automatique"
 collection: publications
+
 permalink: /publication/2011-11-01-Formalisation-des-relations-temporelles-dans-un-contexte-daccompagnement-musical-automatique
 date: 2011-11-01
 venue: 'In the proceedings of 8e Colloque sur la Mod&apos;elisation des Syst`emes R&apos;eactifs (MSR&apos;11)'

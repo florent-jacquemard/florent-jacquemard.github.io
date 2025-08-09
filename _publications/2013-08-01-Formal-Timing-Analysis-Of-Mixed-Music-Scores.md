@@ -1,6 +1,7 @@
 ---
 title: "Formal Timing Analysis Of Mixed Music Scores"
 collection: publications
+category: conferences
 permalink: /publication/2013-08-01-Formal-Timing-Analysis-Of-Mixed-Music-Scores
 date: 2013-08-01
 venue: 'In the proceedings of 2013 ICMC - International Computer Music Conference'

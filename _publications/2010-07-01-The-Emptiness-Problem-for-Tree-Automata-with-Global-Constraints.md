@@ -1,6 +1,7 @@
 ---
 title: "The Emptiness Problem for Tree Automata with Global Constraints"
 collection: publications
+
 permalink: /publication/2010-07-01-The-Emptiness-Problem-for-Tree-Automata-with-Global-Constraints
 date: 2010-07-01
 venue: 'In the proceedings of 25th Annual IEEE Symposium on Logic in Computer Science (LICS)'

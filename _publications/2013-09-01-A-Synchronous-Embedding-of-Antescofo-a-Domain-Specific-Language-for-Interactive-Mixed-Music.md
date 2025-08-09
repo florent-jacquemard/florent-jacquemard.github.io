@@ -1,6 +1,7 @@
 ---
 title: "A Synchronous Embedding of Antescofo, a Domain-Specific Language for Interactive Mixed Music"
 collection: publications
+category: conferences
 permalink: /publication/2013-09-01-A-Synchronous-Embedding-of-Antescofo-a-Domain-Specific-Language-for-Interactive-Mixed-Music
 date: 2013-09-01
 venue: 'In the proceedings of EMSOFT 2013 - 13th International Conference on Embedded Software'

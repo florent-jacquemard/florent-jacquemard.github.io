@@ -1,6 +1,6 @@
 ---
 title: "Rigid Tree Automata and Applications"
-collection: publications
+collection: manuscripts
 permalink: /publication/2011-02-01-Rigid-Tree-Automata-and-Applications
 date: 2011-02-01
 venue: 'Information and Computation'

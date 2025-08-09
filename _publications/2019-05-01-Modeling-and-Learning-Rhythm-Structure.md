@@ -1,6 +1,7 @@
 ---
 title: "Modeling and Learning Rhythm Structure"
 collection: publications
+category: conferences
 permalink: /publication/2019-05-01-Modeling-and-Learning-Rhythm-Structure
 date: 2019-05-01
 venue: 'In the proceedings of Sound and Music Computing Conference (SMC)'

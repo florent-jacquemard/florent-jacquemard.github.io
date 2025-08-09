@@ -1,6 +1,7 @@
 ---
 title: "A Structural Theory of Rhythm Notation based on Tree Representations and Term Rewriting"
 collection: publications
+category: conferences
 permalink: /publication/2015-06-01-A-Structural-Theory-of-Rhythm-Notation-based-on-Tree-Representations-and-Term-Rewriting
 date: 2015-06-01
 venue: 'In the proceedings of Lecture Notes in Artificial Intelligence'

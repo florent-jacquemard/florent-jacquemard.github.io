@@ -1,6 +1,7 @@
 ---
 title: "Towards an Equational Theory of Rhythm Notation"
 collection: publications
+category: conferences
 permalink: /publication/2015-05-01-Towards-an-Equational-Theory-of-Rhythm-Notation
 date: 2015-05-01
 venue: 'In the proceedings of Music Encoding Conference 2015'

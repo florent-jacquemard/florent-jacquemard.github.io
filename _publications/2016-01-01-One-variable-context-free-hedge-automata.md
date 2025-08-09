@@ -1,6 +1,6 @@
 ---
 title: "One-variable context-free hedge automata"
-collection: publications
+collection: manuscripts
 permalink: /publication/2016-01-01-One-variable-context-free-hedge-automata
 date: 2016-01-01
 venue: 'Journal of Computer and System Sciences'

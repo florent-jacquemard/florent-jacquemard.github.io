@@ -1,6 +1,7 @@
 ---
 title: "Weighted Automata Computation of Edit Distances with Consolidations and Fragmentations"
 collection: publications
+category: manuscripts
 permalink: /publication/2022-01-01-Weighted-Automata-Computation-of-Edit-Distances-with-Consolidations-and-Fragmentations
 date: 2022-01-01
 venue: 'Information and Computation'

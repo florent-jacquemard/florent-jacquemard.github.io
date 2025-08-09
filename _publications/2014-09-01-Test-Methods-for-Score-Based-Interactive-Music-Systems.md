@@ -1,6 +1,7 @@
 ---
 title: "Test Methods for Score-Based Interactive Music Systems"
 collection: publications
+category: conferences
 permalink: /publication/2014-09-01-Test-Methods-for-Score-Based-Interactive-Music-Systems
 date: 2014-09-01
 venue: 'In the proceedings of ICMC SMC 2014'

@@ -1,6 +1,7 @@
 ---
 title: "Formalisation des relations temporelles entre une partition et une performance musicale dans un contexte d&apos;accompagnement automatique"
 collection: publications
+category: conferences
 permalink: /publication/2011-11-01-Formalisation-des-relations-temporelles-entre-une-partition-et-une-performance-musicale-dans-un-contexte-daccompagnement-automatique
 excerpt: 'cote interne IRCAM: Echeveste11c'
 date: 2011-11-01

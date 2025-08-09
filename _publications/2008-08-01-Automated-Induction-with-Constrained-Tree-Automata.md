@@ -1,6 +1,7 @@
 ---
 title: "Automated Induction with Constrained Tree Automata"
 collection: publications
+category: conferences
 permalink: /publication/2008-08-01-Automated-Induction-with-Constrained-Tree-Automata
 date: 2008-08-01
 venue: 'In the proceedings of Lecture Notes in Computer Science'

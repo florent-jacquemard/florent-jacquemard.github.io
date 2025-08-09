@@ -1,6 +1,7 @@
 ---
 title: "Controlled Term Rewriting"
 collection: publications
+
 permalink: /publication/2011-10-01-Controlled-Term-Rewriting
 date: 2011-10-01
 venue: 'In the proceedings of Proceedings of the 8th International Symposium Frontiers of Combining Systems (FroCoS)'

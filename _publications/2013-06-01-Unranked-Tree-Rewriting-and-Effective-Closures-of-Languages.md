@@ -1,6 +1,7 @@
 ---
 title: "Unranked Tree Rewriting and Effective Closures of Languages"
 collection: publications
+category: conferences
 permalink: /publication/2013-06-01-Unranked-Tree-Rewriting-and-Effective-Closures-of-Languages
 date: 2013-06-01
 venue: 'In the proceedings of Meeting of the IFIP WG 1.6 on Term Rewriting'

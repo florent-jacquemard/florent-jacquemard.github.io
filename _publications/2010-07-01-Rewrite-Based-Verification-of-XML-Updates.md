@@ -1,6 +1,7 @@
 ---
 title: "Rewrite-Based Verification of XML Updates"
 collection: publications
+
 permalink: /publication/2010-07-01-Rewrite-Based-Verification-of-XML-Updates
 date: 2010-07-01
 venue: 'In the proceedings of 12th international ACM SIGPLAN symposium on Principles and practice of declarative programming (PPDP)'

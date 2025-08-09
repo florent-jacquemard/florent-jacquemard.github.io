@@ -1,6 +1,7 @@
 ---
 title: "Generating equivalent rhythmic notations based on rhythm tree languages"
 collection: publications
+category: conferences
 permalink: /publication/2017-05-01-Generating-equivalent-rhythmic-notations-based-on-rhythm-tree-languages
 date: 2017-05-01
 venue: 'In the proceedings of Third International Conference on Technologies for Music Notation and Representation (TENOR)'

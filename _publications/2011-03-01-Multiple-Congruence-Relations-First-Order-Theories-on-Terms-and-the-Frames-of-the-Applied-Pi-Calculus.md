@@ -1,6 +1,7 @@
 ---
 title: "Multiple Congruence Relations, First-Order Theories on Terms, and the Frames of the Applied Pi-Calculus"
 collection: publications
+
 permalink: /publication/2011-03-01-Multiple-Congruence-Relations-First-Order-Theories-on-Terms-and-the-Frames-of-the-Applied-Pi-Calculus
 date: 2011-03-01
 venue: 'In the proceedings of Lecture Notes in Computer Science'

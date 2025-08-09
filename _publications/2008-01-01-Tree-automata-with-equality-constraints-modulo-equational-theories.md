@@ -1,6 +1,6 @@
 ---
 title: "Tree automata with equality constraints modulo equational theories"
-collection: publications
+collection: manuscripts
 permalink: /publication/2008-01-01-Tree-automata-with-equality-constraints-modulo-equational-theories
 date: 2008-01-01
 venue: 'Journal of Logic and Algebraic Programming'

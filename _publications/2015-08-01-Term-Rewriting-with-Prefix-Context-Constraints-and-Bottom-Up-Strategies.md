@@ -1,6 +1,7 @@
 ---
 title: "Term Rewriting with Prefix Context Constraints and Bottom-Up Strategies"
 collection: publications
+category: conferences
 permalink: /publication/2015-08-01-Term-Rewriting-with-Prefix-Context-Constraints-and-Bottom-Up-Strategies
 date: 2015-08-01
 venue: 'In the proceedings of LNCS'

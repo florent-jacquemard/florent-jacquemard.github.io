@@ -1,6 +1,6 @@
 ---
 title: "FO2(<,+1,~) on data trees, data tree automata and branching vector addition systems."
-collection: publications
+collection: manuscripts
 permalink: /publication/2016-01-01-FO21-on-data-trees-data-tree-automata-and-branching-vector-addition-systems
 date: 2016-01-01
 venue: 'Logical Methods in Computer Science'

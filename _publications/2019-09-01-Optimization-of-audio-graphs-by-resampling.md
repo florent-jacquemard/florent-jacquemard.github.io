@@ -1,6 +1,7 @@
 ---
 title: "Optimization of audio graphs by resampling"
 collection: publications
+category: conferences
 permalink: /publication/2019-09-01-Optimization-of-audio-graphs-by-resampling
 date: 2019-09-01
 venue: 'In the proceedings of Proceedings of the 22nd International Conference on Digital Audio Effects'

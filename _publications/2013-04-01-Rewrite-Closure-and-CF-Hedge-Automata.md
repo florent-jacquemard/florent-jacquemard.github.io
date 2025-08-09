@@ -1,6 +1,7 @@
 ---
 title: "Rewrite Closure and CF Hedge Automata"
 collection: publications
+category: conferences
 permalink: /publication/2013-04-01-Rewrite-Closure-and-CF-Hedge-Automata
 date: 2013-04-01
 venue: 'In the proceedings of Lecture Notes in Computer Science'

@@ -1,6 +1,7 @@
 ---
 title: "Model Based Testing of an Interactive Music System"
 collection: publications
+category: conferences
 permalink: /publication/2015-04-01-Model-Based-Testing-of-an-Interactive-Music-System
 date: 2015-04-01
 venue: 'In the proceedings of Proceedings of the 30th ACM/SIGAPP Symposium On Applied Computing (ACM SAC)'

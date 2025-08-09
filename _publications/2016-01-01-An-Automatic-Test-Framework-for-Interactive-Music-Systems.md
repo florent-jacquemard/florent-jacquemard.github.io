@@ -1,6 +1,6 @@
 ---
 title: "An Automatic Test Framework for Interactive Music Systems"
-collection: publications
+collection: manuscripts
 permalink: /publication/2016-01-01-An-Automatic-Test-Framework-for-Interactive-Music-Systems
 date: 2016-01-01
 venue: 'Journal of New Music Research'

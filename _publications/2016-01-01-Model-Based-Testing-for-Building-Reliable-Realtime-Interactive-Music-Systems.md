@@ -1,6 +1,6 @@
 ---
 title: "Model-Based Testing for Building Reliable Realtime Interactive Music Systems"
-collection: publications
+collection: manuscripts
 permalink: /publication/2016-01-01-Model-Based-Testing-for-Building-Reliable-Realtime-Interactive-Music-Systems
 date: 2016-01-01
 venue: 'Science of Computer Programming'

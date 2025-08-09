@@ -1,6 +1,7 @@
 ---
 title: "Some results on confluence: decision and what to do without"
 collection: publications
+category: conferences
 permalink: /publication/2016-09-01-Some-results-on-confluence-decision-and-what-to-do-without
 date: 2016-09-01
 venue: 'In the proceedings of Proceedings of the 5th International Workshop on Confluence'

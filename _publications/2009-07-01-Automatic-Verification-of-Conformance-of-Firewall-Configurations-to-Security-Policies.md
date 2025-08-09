@@ -1,6 +1,7 @@
 ---
 title: "Automatic Verification of Conformance of Firewall Configurations to Security Policies"
 collection: publications
+
 permalink: /publication/2009-07-01-Automatic-Verification-of-Conformance-of-Firewall-Configurations-to-Security-Policies
 date: 2009-07-01
 venue: 'In the proceedings of IEEE Symposium on Computers and Communications (ISCC)'

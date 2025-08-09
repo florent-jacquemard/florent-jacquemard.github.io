@@ -1,6 +1,7 @@
 ---
 title: "Projet EFFICACE : D&apos;eveloppements et perspectives en composition assist&apos;ee par ordinateur"
 collection: publications
+category: conferences
 permalink: /publication/2015-01-01-Projet-EFFICACE-Developpements-et-perspectives-en-composition-assistee-par-ordinateur
 date: 2015-01-01
 venue: 'In the proceedings of Journ&apos;ees d&apos;Informatique Musicale'

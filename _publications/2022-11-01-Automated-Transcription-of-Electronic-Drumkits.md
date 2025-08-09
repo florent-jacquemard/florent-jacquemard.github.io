@@ -1,6 +1,7 @@
 ---
 title: "Automated Transcription of Electronic Drumkits"
 collection: publications
+category: conferences
 permalink: /publication/2022-11-01-Automated-Transcription-of-Electronic-Drumkits
 date: 2022-11-01
 venue: 'In the proceedings of 4th International Workshop on Reading Music Systems (WoRMS)'

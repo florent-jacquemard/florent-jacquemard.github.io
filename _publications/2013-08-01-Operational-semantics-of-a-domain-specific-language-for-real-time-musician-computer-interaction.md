@@ -1,6 +1,6 @@
 ---
 title: "Operational semantics of a domain specific language for real time musician-computer interaction"
-collection: publications
+collection: manuscripts
 permalink: /publication/2013-08-01-Operational-semantics-of-a-domain-specific-language-for-real-time-musician-computer-interaction
 date: 2013-08-01
 venue: 'Discrete Event Dynamic Systems'

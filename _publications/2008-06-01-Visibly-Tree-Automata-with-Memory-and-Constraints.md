@@ -1,6 +1,6 @@
 ---
 title: "Visibly Tree Automata with Memory and Constraints"
-collection: publications
+collection: manuscripts
 permalink: /publication/2008-06-01-Visibly-Tree-Automata-with-Memory-and-Constraints
 excerpt: 'An extended abstract containing some of the results presented in this paper has appeared in the proceeding of FOSSACS&apos;07.'
 date: 2008-06-01

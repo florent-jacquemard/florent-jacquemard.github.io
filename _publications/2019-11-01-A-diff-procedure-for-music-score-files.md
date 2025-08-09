@@ -1,6 +1,7 @@
 ---
 title: "A diff procedure for music score files"
 collection: publications
+category: conferences
 permalink: /publication/2019-11-01-A-diff-procedure-for-music-score-files
 date: 2019-11-01
 venue: 'In the proceedings of 6th International Conference on Digital Libraries for Musicology (DLfM)'

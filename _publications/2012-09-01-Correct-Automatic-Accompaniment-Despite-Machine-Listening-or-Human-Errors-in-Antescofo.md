@@ -1,6 +1,7 @@
 ---
 title: "Correct Automatic Accompaniment Despite Machine Listening or Human Errors in Antescofo"
 collection: publications
+category: conferences
 permalink: /publication/2012-09-01-Correct-Automatic-Accompaniment-Despite-Machine-Listening-or-Human-Errors-in-Antescofo
 date: 2012-09-01
 venue: 'In the proceedings of ICMC 2012 - International Computer Music Conference'

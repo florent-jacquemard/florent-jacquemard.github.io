@@ -1,6 +1,6 @@
 ---
 title: "Antescofo `a l&apos;avant-garde de l&apos;informatique musicale"
-collection: publications
+collection: manuscripts
 permalink: /publication/2012-11-01-Antescofo-a-lavant-garde-de-linformatique-musicale
 date: 2012-11-01
 venue: 'Interstices'

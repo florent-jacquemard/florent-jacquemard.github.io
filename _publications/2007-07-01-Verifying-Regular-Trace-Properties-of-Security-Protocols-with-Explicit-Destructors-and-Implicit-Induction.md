@@ -1,6 +1,7 @@
 ---
 title: "Verifying Regular Trace Properties of Security Protocols with Explicit Destructors and Implicit Induction"
 collection: publications
+category: conferences
 permalink: /publication/2007-07-01-Verifying-Regular-Trace-Properties-of-Security-Protocols-with-Explicit-Destructors-and-Implicit-Induction
 date: 2007-07-01
 venue: 'In the proceedings of Proceedings of the Joint Workshop on Foundations of Computer Security and Automated Reasoning for Security Protocol Analysis (FCS-ARSPA)'
