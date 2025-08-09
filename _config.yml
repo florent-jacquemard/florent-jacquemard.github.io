@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Florent Jacquemard"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "Research Scientist"
+  location         : "2 rue Conté, 75003 Paris, France"
+  employer         : "INRIA"
+  uri              : "https://inria.fr"
+  email            : "florent.jacquemard@inria.fr" 
 
   # Academic websites
   academia         : # URL
