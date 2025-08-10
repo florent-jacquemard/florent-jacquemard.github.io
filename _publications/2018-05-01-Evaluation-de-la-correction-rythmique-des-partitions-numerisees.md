@@ -4,8 +4,8 @@ collection: publications
 category: conferences
 permalink: /publication/2018-05-01-Evaluation-de-la-correction-rythmique-des-partitions-numerisees
 date: 2018-05-01
-venue: 'In the proceedings of Journ&apos;ees d&apos;Informatique Musicale (JIM)'
+venue: 'Proceedings of Journ&apos;ees d&apos;Informatique Musicale (JIM)'
 paperurl: 'https://hal.science/hal-01791404'
-citation: ' Francesco Foscarin,  Rapha{\&quot;e}l Fournier-S&apos;Niehotta,  Florent Jacquemard,  Philippe Rigaux, &quot;&amp;apos;Evaluation de la correction rythmique des partitions num&amp;apos;eris&amp;apos;ees.&quot; In the proceedings of JIM 2018 - Journ&amp;apos;ees d&amp;apos;Informatique Musicale, 2018.'
+citation: 'Francesco Foscarin,  Rapha{\&quot;e}l Fournier-S&apos;Niehotta,  Florent Jacquemard,  Philippe Rigaux, &quot;&amp;apos;Evaluation de la correction rythmique des partitions num&amp;apos;eris&amp;apos;ees.&quot; In the proceedings of Journ&amp;apos;ees d&amp;apos;Informatique Musicale (JIM), 2018.'
 ---
 [Access paper here](https://hal.science/hal-01791404){:target="_blank"}
