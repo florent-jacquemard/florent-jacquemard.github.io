@@ -1,5 +1,6 @@
 ---
 title: "From Authored to Produced Time in Computer-Musician Interactions"
+authors: 'Arshia Cont, Jean-Louis Giavitto, Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2013-04-01-From-Authored-to-Produced-Time-in-Computer-Musician-Interactions

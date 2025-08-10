@@ -1,5 +1,6 @@
 ---
 title: "Term Rewriting with Prefix Context Constraints and Bottom-Up Strategies"
+authors: 'Florent Jacquemard, Yoshiharu Kojima, Masahiko Sakai'
 collection: publications
 category: conferences
 permalink: /publication/2015-08-01-Term-Rewriting-with-Prefix-Context-Constraints-and-Bottom-Up-Strategies

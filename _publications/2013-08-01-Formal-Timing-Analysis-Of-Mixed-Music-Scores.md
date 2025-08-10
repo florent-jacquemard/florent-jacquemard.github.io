@@ -1,5 +1,6 @@
 ---
 title: "Formal Timing Analysis Of Mixed Music Scores"
+authors: 'Léa Fanchon, Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2013-08-01-Formal-Timing-Analysis-Of-Mixed-Music-Scores

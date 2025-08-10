@@ -1,5 +1,6 @@
 ---
 title: "FO2(<,+1,~) on data trees, data tree automata and branching vector addition systems"
+authors: 'Florent Jacquemard, Luc Segoufin, Jérémie Dimino'
 collection: publications
 category: manuscripts
 permalink: /publication/2016-01-01-FO21-on-data-trees-data-tree-automata-and-branching-vector-addition-systems

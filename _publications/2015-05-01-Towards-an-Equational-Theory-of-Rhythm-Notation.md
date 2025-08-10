@@ -1,5 +1,6 @@
 ---
 title: "Towards an Equational Theory of Rhythm Notation"
+authors: 'Pierre Donat-Bouillud, Florent Jacquemard, Masahiko Sakai'
 collection: publications
 category: conferences
 permalink: /publication/2015-05-01-Towards-an-Equational-Theory-of-Rhythm-Notation

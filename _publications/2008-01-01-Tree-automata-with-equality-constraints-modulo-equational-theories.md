@@ -1,5 +1,6 @@
 ---
 title: "Tree automata with equality constraints modulo equational theories"
+authors: 'Florent Jacquemard, Michael Rusinowitch, Laurent Vigneron'
 collection: publications
 category: manuscripts
 permalink: /publication/2008-01-01-Tree-automata-with-equality-constraints-modulo-equational-theories

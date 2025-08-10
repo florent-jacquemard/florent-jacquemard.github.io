@@ -1,5 +1,6 @@
 ---
 title: "Rewrite-Based Verification of XML Updates"
+authors: 'Florent Jacquemard, Michael Rusinowitch'
 collection: publications
 category: conferences
 permalink: /publication/2010-07-01-Rewrite-Based-Verification-of-XML-Updates

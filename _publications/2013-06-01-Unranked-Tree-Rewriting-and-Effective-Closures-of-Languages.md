@@ -1,5 +1,6 @@
 ---
 title: "Unranked Tree Rewriting and Effective Closures of Languages"
+authors: 'Florent Jacquemard,  Michaël Rusinowitch'
 collection: publications
 category: conferences
 permalink: /publication/2013-06-01-Unranked-Tree-Rewriting-and-Effective-Closures-of-Languages

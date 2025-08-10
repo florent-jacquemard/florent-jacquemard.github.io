@@ -1,5 +1,6 @@
 ---
 title: "Optimization of audio graphs by resampling"
+authors: 'Pierre Donat-Bouillud, Jean-Louis Giavitto, Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2019-09-01-Optimization-of-audio-graphs-by-resampling

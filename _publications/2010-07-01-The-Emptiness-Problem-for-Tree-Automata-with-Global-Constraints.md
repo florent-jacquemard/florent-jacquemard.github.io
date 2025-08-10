@@ -1,5 +1,6 @@
 ---
 title: "The Emptiness Problem for Tree Automata with Global Constraints"
+authors: 'Luis Barguño}, Carlos Creus, Guillem Godoy, Florent Jacquemard, Camille Vacher'
 collection: publications
 category: conferences
 permalink: /publication/2010-07-01-The-Emptiness-Problem-for-Tree-Automata-with-Global-Constraints

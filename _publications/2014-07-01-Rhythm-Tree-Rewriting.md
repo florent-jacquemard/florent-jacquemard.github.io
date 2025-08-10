@@ -1,5 +1,6 @@
 ---
 title: "Rhythm Tree Rewriting"
+authors: 'Florent Jacquemard, Jean Bresson, Pierre Donat-Bouillud'
 collection: publications
 category: conferences
 permalink: /publication/2014-07-01-Rhythm-Tree-Rewriting

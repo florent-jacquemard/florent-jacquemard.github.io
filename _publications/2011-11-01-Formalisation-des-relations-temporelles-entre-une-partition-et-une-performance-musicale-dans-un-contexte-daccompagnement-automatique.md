@@ -1,5 +1,6 @@
 ---
 title: "Formalisation des relations temporelles entre une partition et une performance musicale dans un contexte d&apos;accompagnement automatique"
+authors: 'José Echeveste, Arshia Cont, Florent Jacquemard, Jean-Louis Giavitto'
 collection: publications
 category: conferences
 permalink: /publication/2011-11-01-Formalisation-des-relations-temporelles-entre-une-partition-et-une-performance-musicale-dans-un-contexte-daccompagnement-automatique

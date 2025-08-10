@@ -1,5 +1,6 @@
 ---
 title: "A Structural Theory of Rhythm Notation based on Tree Representations and Term Rewriting"
+authors: 'Florent Jacquemard, Pierre Donat-Bouillud, Jean Bresson'
 collection: publications
 category: conferences
 permalink: /publication/2015-06-01-A-Structural-Theory-of-Rhythm-Notation-based-on-Tree-Representations-and-Term-Rewriting

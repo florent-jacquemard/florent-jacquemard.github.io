@@ -1,5 +1,6 @@
 ---
 title: "Gioqoso, an online Quality Assessment Tool for Music Notation"
+authors: 'Francesco Foscarin, David Fiala, Florent Jacquemard, Philippe Rigaux, Virginie Thion'
 collection: publications
 category: conferences
 permalink: /publication/2018-05-01-Gioqoso-an-online-Quality-Assessment-Tool-for-Music-Notation

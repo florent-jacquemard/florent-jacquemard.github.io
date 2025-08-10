@@ -1,5 +1,6 @@
 ---
 title: "Model Based Testing of an Interactive Music System"
+authors: 'Clément Poncelet, Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2015-04-01-Model-Based-Testing-of-an-Interactive-Music-System

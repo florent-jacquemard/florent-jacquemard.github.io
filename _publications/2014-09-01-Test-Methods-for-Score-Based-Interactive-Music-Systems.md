@@ -1,5 +1,6 @@
 ---
 title: "Test Methods for Score-Based Interactive Music Systems"
+authors: 'Clément Poncelet, Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2014-09-01-Test-Methods-for-Score-Based-Interactive-Music-Systems

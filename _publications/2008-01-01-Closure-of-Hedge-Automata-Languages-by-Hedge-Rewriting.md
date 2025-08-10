@@ -1,5 +1,6 @@
 ---
 title: "Closure of Hedge-Automata Languages by Hedge Rewriting"
+authors: 'Florent Jacquemard, Michael Rusinowitch'
 collection: publications
 category: conferences
 permalink: /publication/2008-01-01-Closure-of-Hedge-Automata-Languages-by-Hedge-Rewriting

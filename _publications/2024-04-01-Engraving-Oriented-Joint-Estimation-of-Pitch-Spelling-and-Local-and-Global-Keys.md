@@ -1,5 +1,6 @@
 ---
 title: "Engraving Oriented Joint Estimation of Pitch Spelling and Local and Global Keys"
+authors: 'Augustin Bouquillard, Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2024-04-01-Engraving-Oriented-Joint-Estimation-of-Pitch-Spelling-and-Local-and-Global-Keys

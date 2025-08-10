@@ -1,5 +1,6 @@
 ---
 title: "Decidable Classes of Tree Automata Mixing Local and Global Constraints Modulo Flat Theories"
+authors: 'Luis Barguño, Carlos Creus, Guillem Godoy, Florent Jacquemard, Camille Vacher'
 collection: publications
 category: manuscripts
 permalink: /publication/2013-01-01-Decidable-Classes-of-Tree-Automata-Mixing-Local-and-Global-Constraints-Modulo-Flat-Theories

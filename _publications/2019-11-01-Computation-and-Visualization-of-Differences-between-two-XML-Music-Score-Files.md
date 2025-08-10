@@ -1,5 +1,6 @@
 ---
 title: "Computation and Visualization of Differences between two XML Music Score Files"
+authors: 'Francesco Foscarin, Florent Jacquemard, Raphaël Fournier-Sniehotta'
 collection: publications
 category: conferences
 permalink: /publication/2019-11-01-Computation-and-Visualization-of-Differences-between-two-XML-Music-Score-Files

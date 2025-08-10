@@ -1,5 +1,6 @@
 ---
 title: "8+8=4: Formalizing Time Units to Handle Symbolic Music Durations"
+authors: 'Emmanouil Karystinaios, Francesco Foscarin, Florent Jacquemard, Masahiko Sakai, Satoshi Tojo, Gerhard Widmer'
 collection: publications
 category: conferences
 permalink: /publication/2023-11-01-884-Formalizing-Time-Units-to-Handle-Symbolic-Music-Durations

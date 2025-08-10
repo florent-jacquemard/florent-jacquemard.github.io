@@ -1,5 +1,6 @@
 ---
 title: "Évaluation de la correction rythmique des partitions numérisées"
+authors: 'Francesco Foscarin, Raphaël Fournier-S&apos;Niehotta, Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2018-05-01-Evaluation-de-la-correction-rythmique-des-partitions-numerisees

@@ -1,5 +1,6 @@
 ---
 title: "Verifying Regular Trace Properties of Security Protocols with Explicit Destructors and Implicit Induction"
+authors: 'Adel Bouhoula, Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2007-07-01-Verifying-Regular-Trace-Properties-of-Security-Protocols-with-Explicit-Destructors-and-Implicit-Induction

@@ -1,5 +1,6 @@
 ---
 title: "Automated Induction with Constrained Tree Automata"
+authors: 'Adel Bouhoula, Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2008-08-01-Automated-Induction-with-Constrained-Tree-Automata

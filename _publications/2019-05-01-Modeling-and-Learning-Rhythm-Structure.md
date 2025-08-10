@@ -1,5 +1,6 @@
 ---
 title: "Modeling and Learning Rhythm Structure"
+authors: 'Francesco Foscarin, Florent Jacquemard, Philippe Rigaux'
 collection: publications
 category: conferences
 permalink: /publication/2019-05-01-Modeling-and-Learning-Rhythm-Structure

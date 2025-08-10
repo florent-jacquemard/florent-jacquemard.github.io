@@ -1,5 +1,6 @@
 ---
 title: "Une approche interactive pour la transcription rythmique dans OpenMusic"
+authors: 'Adrien Ycart, Jean Bresson, Florent Jacquemard, Slawek Staworko'
 collection: publications
 category: conferences
 permalink: /publication/2016-03-01-Une-approche-interactive-pour-la-transcription-rythmique-dans-OpenMusic

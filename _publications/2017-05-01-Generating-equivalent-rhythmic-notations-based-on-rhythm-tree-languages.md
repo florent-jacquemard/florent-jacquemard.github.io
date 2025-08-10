@@ -1,5 +1,6 @@
 ---
 title: "Generating equivalent rhythmic notations based on rhythm tree languages"
+authors: 'Florent Jacquemard, Adrien Ycart, Masahiko Sakai'
 collection: publications
 category: conferences
 permalink: /publication/2017-05-01-Generating-equivalent-rhythmic-notations-based-on-rhythm-tree-languages

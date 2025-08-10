@@ -1,5 +1,6 @@
 ---
 title: "XML Access Control: from XACML to Annotated Schemas"
+authors: 'Ryma Abassi, Florent Jacquemard, Michael Rusinowitch, Sihem Sihem Guemara El Fatmi'
 collection: publications
 category: conferences
 permalink: /publication/2010-11-01-XML-Access-Control-from-XACML-to-Annotated-Schemas

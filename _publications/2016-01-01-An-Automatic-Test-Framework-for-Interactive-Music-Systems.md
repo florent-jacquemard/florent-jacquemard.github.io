@@ -1,5 +1,6 @@
 ---
 title: "An Automatic Test Framework for Interactive Music Systems"
+authors: 'Florent Jacquemard, Clément Poncelet'
 collection: publications
 category: manuscripts
 permalink: /publication/2016-01-01-An-Automatic-Test-Framework-for-Interactive-Music-Systems

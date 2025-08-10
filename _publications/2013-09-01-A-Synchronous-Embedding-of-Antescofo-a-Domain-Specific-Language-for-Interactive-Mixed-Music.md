@@ -1,5 +1,6 @@
 ---
 title: "A Synchronous Embedding of Antescofo, a Domain-Specific Language for Interactive Mixed Music"
+authors: 'Guillaume Baudart, Louis Mandel, Florent Jacquemard, Marc Pouzet'
 collection: publications
 category: conferences
 permalink: /publication/2013-09-01-A-Synchronous-Embedding-of-Antescofo-a-Domain-Specific-Language-for-Interactive-Mixed-Music

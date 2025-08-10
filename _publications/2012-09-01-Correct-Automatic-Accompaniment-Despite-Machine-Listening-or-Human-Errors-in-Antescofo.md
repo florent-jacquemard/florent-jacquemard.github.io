@@ -1,5 +1,6 @@
 ---
 title: "Correct Automatic Accompaniment Despite Machine Listening or Human Errors in Antescofo"
+authors: 'Arshia Cont, José Echeveste, Jean-Louis Giavitto, Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2012-09-01-Correct-Automatic-Accompaniment-Despite-Machine-Listening-or-Human-Errors-in-Antescofo

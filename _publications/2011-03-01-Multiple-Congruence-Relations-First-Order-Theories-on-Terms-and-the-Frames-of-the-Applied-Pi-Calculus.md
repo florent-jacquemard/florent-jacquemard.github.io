@@ -1,5 +1,6 @@
 ---
 title: "Multiple Congruence Relations, First-Order Theories on Terms, and the Frames of the Applied Pi-Calculus"
+authors: 'Florent Jacquemard, Etienne Lozes, Ralf Treinen, Jules Villard'
 collection: publications
 category: conferences
 permalink: /publication/2011-03-01-Multiple-Congruence-Relations-First-Order-Theories-on-Terms-and-the-Frames-of-the-Applied-Pi-Calculus

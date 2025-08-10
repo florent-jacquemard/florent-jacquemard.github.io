@@ -1,5 +1,6 @@
 ---
 title: "Model-Based Testing for Building Reliable Realtime Interactive Music Systems"
+authors: 'Clément Poncelet, Florent Jacquemard'
 collection: publications
 category: manuscripts
 permalink: /publication/2016-01-01-Model-Based-Testing-for-Building-Reliable-Realtime-Interactive-Music-Systems

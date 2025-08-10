@@ -1,5 +1,6 @@
 ---
 title: "ASAP: a dataset of aligned scores and performances for piano transcription"
+authors: 'Francesco Foscarin, Andrew Mcleod, Philippe Rigaux, Florent Jacquemard, Masahiko Sakai'
 collection: publications
 category: conferences
 permalink: /publication/2020-10-01-ASAP-a-dataset-of-aligned-scores-and-performances-for-piano-transcription

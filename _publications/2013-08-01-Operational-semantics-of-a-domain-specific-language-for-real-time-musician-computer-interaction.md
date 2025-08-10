@@ -1,5 +1,6 @@
 ---
 title: "Operational semantics of a domain specific language for real time musician-computer interaction"
+authors: 'José Echeveste, Arshia Cont, Jean-Louis Giavitto, Florent Jacquemard'
 collection: publications
 category: manuscripts
 permalink: /publication/2013-08-01-Operational-semantics-of-a-domain-specific-language-for-real-time-musician-computer-interaction

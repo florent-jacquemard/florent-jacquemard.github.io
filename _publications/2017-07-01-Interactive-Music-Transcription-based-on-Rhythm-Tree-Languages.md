@@ -1,5 +1,6 @@
 ---
 title: "Interactive Music Transcription based on Rhythm Tree Languages"
+authors: 'Florent Jacquemard, Adrien Ycart'
 collection: publications
 category: conferences
 permalink: /publication/2017-07-01-Interactive-Music-Transcription-based-on-Rhythm-Tree-Languages

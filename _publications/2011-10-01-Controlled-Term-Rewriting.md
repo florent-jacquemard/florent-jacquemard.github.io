@@ -1,5 +1,6 @@
 ---
 title: "Controlled Term Rewriting"
+authors: 'Florent Jacquemard, Yoshiharu Kojima, Masahiko Sakai'
 collection: publications
 category: conferences
 permalink: /publication/2011-10-01-Controlled-Term-Rewriting

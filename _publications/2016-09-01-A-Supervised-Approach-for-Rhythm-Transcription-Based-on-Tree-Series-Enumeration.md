@@ -1,5 +1,6 @@
 ---
 title: "A Supervised Approach for Rhythm Transcription Based on Tree Series Enumeration"
+authors: 'Adrien Ycart, Florent Jacquemard, Jean Bresson, Slawomir Staworko'
 collection: publications
 category: conferences
 permalink: /publication/2016-09-01-A-Supervised-Approach-for-Rhythm-Transcription-Based-on-Tree-Series-Enumeration

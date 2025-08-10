@@ -1,5 +1,6 @@
 ---
 title: "Evaluating musical score difference: a two-level comparison"
+authors: 'Francesco Foscarin, David Fiala, Florent Jacquemard, Philippe Rigaux, Virginie Thion'
 collection: publications
 category: conferences
 permalink: /publication/2018-07-01-Evaluating-musical-score-difference

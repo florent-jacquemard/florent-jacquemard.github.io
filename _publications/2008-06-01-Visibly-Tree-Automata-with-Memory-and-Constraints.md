@@ -1,5 +1,6 @@
 ---
 title: "Visibly Tree Automata with Memory and Constraints"
+authors: 'Hubert Comon-Lundh, Florent Jacquemard'
 collection: publications
 category: manuscripts
 permalink: /publication/2008-06-01-Visibly-Tree-Automata-with-Memory-and-Constraints

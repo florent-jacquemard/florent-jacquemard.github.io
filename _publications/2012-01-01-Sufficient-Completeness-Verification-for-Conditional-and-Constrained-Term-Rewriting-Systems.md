@@ -1,5 +1,6 @@
 ---
 title: "Sufficient Completeness Verification for Conditional and Constrained Term Rewriting Systems"
+authors: 'Adel Bouhoula, Florent Jacquemard'
 collection: publications
 category: manuscripts
 permalink: /publication/2012-01-01-Sufficient-Completeness-Verification-for-Conditional-and-Constrained-Term-Rewriting-Systems

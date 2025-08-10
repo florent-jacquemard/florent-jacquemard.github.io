@@ -1,5 +1,6 @@
 ---
 title: "Tokenization of MIDI Sequences for Transcription"
+authors: 'Yosuke Amagasu, Florent Jacquemard, Masahiko Sakai'
 collection: publications
 category: conferences
 permalink: /publication/2024-04-01-Tokenization-of-MIDI-Sequences-for-Transcription

@@ -1,5 +1,6 @@
 ---
 title: "One-variable context-free hedge automata"
+authors: 'Florent Jacquemard, Michael Rusinowitch'
 collection: publications
 category: manuscripts
 permalink: /publication/2016-01-01-One-variable-context-free-hedge-automata

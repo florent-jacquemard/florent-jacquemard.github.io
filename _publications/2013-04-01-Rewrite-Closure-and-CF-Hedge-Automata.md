@@ -1,5 +1,6 @@
 ---
 title: "Rewrite Closure and CF Hedge Automata"
+authors: 'Florent Jacquemard, Michael Rusinowitch'
 collection: publications
 category: conferences
 permalink: /publication/2013-04-01-Rewrite-Closure-and-CF-Hedge-Automata

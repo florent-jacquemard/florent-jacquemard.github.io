@@ -1,5 +1,6 @@
 ---
 title: "Projet EFFICACE : Développements et perspectives en composition assistée par ordinateur"
+authors: 'Jean Bresson, Dimitri Bouche, Jérémie Garcia, Thibaut Carpentier, Florent Jacquemard, John Maccallum, Diemo Schwarz'
 collection: publications
 category: conferences
 permalink: /publication/2015-01-01-Projet-EFFICACE-Developpements-et-perspectives-en-composition-assistee-par-ordinateur

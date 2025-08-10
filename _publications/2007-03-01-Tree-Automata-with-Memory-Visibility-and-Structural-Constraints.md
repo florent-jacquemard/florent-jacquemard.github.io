@@ -1,5 +1,6 @@
 ---
 title: "Tree Automata with Memory, Visibility and Structural Constraints"
+authors: 'Hubert Comon-Lundh, Florent Jacquemard, Nicolas Perrin'
 collection: publications
 category: conferences
 permalink: /publication/2007-03-01-Tree-Automata-with-Memory-Visibility-and-Structural-Constraints

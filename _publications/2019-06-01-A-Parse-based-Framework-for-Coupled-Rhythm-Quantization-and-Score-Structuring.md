@@ -1,5 +1,6 @@
 ---
 title: "A Parse-based Framework for Coupled Rhythm Quantization and Score Structuring"
+authors: 'Francesco Foscarin, Florent Jacquemard, Philippe Rigaux, Masahiko Sakai'
 collection: publications
 category: conferences
 permalink: /publication/2019-06-01-A-Parse-based-Framework-for-Coupled-Rhythm-Quantization-and-Score-Structuring

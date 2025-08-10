@@ -1,5 +1,6 @@
 ---
 title: "Closure of Tree Automata Languages under Innermost Rewriting"
+authors: 'Adria Gascon, Guillem Godoy, Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2008-07-01-Closure-of-Tree-Automata-Languages-under-Innermost-Rewriting

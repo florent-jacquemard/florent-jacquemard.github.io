@@ -1,5 +1,6 @@
 ---
 title: "MIDI To Score Automated Drum Transcription"
+authors: 'Martin Digard, Florent Jacquemard, Lydia Rodriguez-de la Nava'
 collection: publications
 category: conferences
 permalink: /publication/2022-07-01-MIDI-To-Score-Automated-Transcription

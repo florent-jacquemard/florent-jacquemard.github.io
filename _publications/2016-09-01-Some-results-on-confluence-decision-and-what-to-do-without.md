@@ -1,5 +1,6 @@
 ---
 title: "Some results on confluence: decision and what to do without"
+authors: 'Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2016-09-01-Some-results-on-confluence-decision-and-what-to-do-without
