@@ -1,10 +1,11 @@
 ---
 title: "Decidable Classes of Tree Automata Mixing Local and Global Constraints Modulo Flat Theories"
-collection: manuscripts
+collection: publications
+category: manuscripts
 permalink: /publication/2013-01-01-Decidable-Classes-of-Tree-Automata-Mixing-Local-and-Global-Constraints-Modulo-Flat-Theories
 date: 2013-01-01
-venue: 'Logical Methods in Computer Science'
+venue: 'Logical Methods in Computer Science 9(2:01)'
 paperurl: 'https://inria.hal.science/hal-00852382'
-citation: ' Luis Bargu{\~n}{\&apos;o},  Carlos Creus,  Guillem Godoy,  Florent Jacquemard,  Camille Vacher, &quot;Decidable Classes of Tree Automata Mixing Local and Global Constraints Modulo Flat Theories.&quot; Logical Methods in Computer Science, 2013.'
+citation: ' Luis Barguño},  Carlos Creus,  Guillem Godoy,  Florent Jacquemard,  Camille Vacher, &quot;Decidable Classes of Tree Automata Mixing Local and Global Constraints Modulo Flat Theories&quot; Logical Methods in Computer Science 9(2:01), 2013.'
 ---
-[Access paper here](https://inria.hal.science/hal-00852382){:target="_blank"}
+[Access paper here](https://doi.org/10.2168/LMCS-9(2:1)2013){:target="_blank"}
