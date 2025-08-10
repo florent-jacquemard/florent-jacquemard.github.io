@@ -1,5 +1,6 @@
 ---
 title: "Weighted Automata Computation of Edit Distances with Consolidations and Fragmentations"
+authors: 'Mathieu Giraud, Florent Jacquemard'
 collection: publications
 category: manuscripts
 permalink: /publication/2022-01-01-Weighted-Automata-Computation-of-Edit-Distances-with-Consolidations-and-Fragmentations
