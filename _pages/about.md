@@ -1,56 +1,91 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Florent Jacquemard's personal page"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## Research interests
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My research project is concerned with Computer Music and Digital Humanities, 
+more specifically with the processing of structured written music data (*digital music scores*), 
+and in particular the following problems:
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+the **creation** and **digitalisation** of music notation (automatic music transcription), 
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+* Automatic Music **Transcription**
+  Digital Music Score and Corpora **analysis** (Digital Musicology),
+  **Melodic Similarity** computation
+* **Information Retrieval** in collections of digital music scores
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+formal methods and tools from the following fundamental domains:
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+*  **Automated Deduction**, in particular Inductive Theorem Proving, and Term Rewriting
+* Theory of Automata and **Tree Automata**, **weighted** and unweighted, 
+* **Edit Distances** between strings and trees, 
+* Logic for Computer Science.
 
-**Markdown generator**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+Formerly, I have worked on these formal methods and their application to the verification of systems and software:
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+* Interactive Music Systems, Real-Time Testing and Computer-Aided Composition at **[Ircam](https://www.ircam.fr)**, Paris (team [Mutant](http://repmus.ircam.fr/mutant)),
+* Verification of Web data management systems and computer security at **[LSV](http://www.lsv.fr)/ENS-Cachan**, 
+* Automated Deduction at **[Inria Nancy](http://www.loria.fr)**, **[MPI-I](https://www.mpi-inf.mpg.de)** Saarbrücken, **[SRI International](http://www.csl.sri.com)**, Stanford,
+* Development of secure embedded software components for smartcards and payment terminals at the company **Trusted Logic**.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
+
+
+
+## News
+
+- **PhD proposal**: 
+  [Grammar Generative Models for Music Notation Processing](files/propositions/generation-en.pdf).
+   The objective of this thesis proposal is the development, in the context of musical notation processing, of deep generative models guided by a grammar, in order to produce well-formed structured results.  
+   The main aimed application is the automatic transcription of piano performances recorded in the symbolic MIDI format.  
+   French proposal: [Modèles génératifs grammaticaux pour le traitement de la notation musicale](files/propositions/generation-fr.pdf)
+
+- **PhD proposal**: 
+  [Digital Music Score Distances](files/propositions/distance-en.pdf).
+  This thesis project focuses on the study of similarity metrics and algorithms identifying the differences between digital musical scores, represented in the form of labeled trees.  
+  The targeted applications are the approximate querying of collections of digital music scores, the development of tools for collaborative musical writing and version management and computational musicology, in particular corpus musicology, in collaboration with specialists in this field.  
+  French proposal: [Distances entre partitions musicales numériques](files/propositions/distance-fr.pdf)
+
+
+- **research internship proposals**: 
+
+  - [Pitch Spelling in Jazz](files/propositions/spellingJazz.pdf)
+  - [Tempo Estimation in Automatic Music Transcription](files/propositions/tempo.pdf)
+  - [MusicXML output for an Intermediate Representation of Music Scores](files/propositions/musicxml.pdf)
+  - [Implantation and Evaluation of a melodic similarity distance](files/propositions/MontgeauSankoff.pdf)
+
+- [poster](https://hal.archives-ouvertes.fr/hal-03847232) presentation by Lydia Rodriguez-de la Nava at the 9th International Conference on Digital Libraries for Musicology [DLfM 2022](https://dlfm.web.ox.ac.uk), joined with the annual conference of the International Association of Music Libraries (IAML): MIDI To Score Automated Drum Transcription.
+
+- [paper](https://hal.archives-ouvertes.fr/hal-03815760v3) at [WoRMS’22](https://sites.google.com/view/worms2022) on Automated Transcription of Electronic Drumkits.
+  [slides](https://project.inria.fr/codex/files/2023/01/WoRMS22.pdf) of the presentation.
+
+- [talk](https://project.inria.fr/codex/files/2022/10/AEx20221006.pdf) at Inria’s *1/2h de science*, 6 oct. 2022. A 30 min presentation of the Exploratory Action [Codex]((https://project.inria.fr/codex)) on *Musical Notation Processing*, at Inria Paris center, with a focus on our activity on transcription.
+
+- meeting of the JSPS Kakenhi, 15-16 sept. 2022, Inria center, and Maison Suger, Paris.
+
+- [paper](https://hal.inria.fr/hal-01857267) on the computation of [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit-distance measuring melodic similarity, based on weighted automata techniques. [Information & Computation](https://doi.org/10.1016/j.ic.2020.104652) vol. 282, 2022.
+
+- [Seminar](https://project.inria.fr/codex/files/2011/12/EPFL-DISOPT-220620.pdf) at EPFL, Bernoulli Centre, 
+  organized by the [Chair of Discrete Optimization](https://www.epfl.ch/labs/disopt/),
+  and in presence of members of the Chair of Discrete Optimization and [DCML](https://www.epfl.ch/labs/dcml/).
+  title: Automated Music Transcription based on Formal Language Models.
+
+- INRIA Exploratory Action [**Codex**](https://project.inria.fr/codex) (2020-2023) on the formal representation and processing of symbolic music data, and applications to information retrieval in digital music score databases, computational musicology, music transcription and corpus digitization. The project is starting in November 2020 with the PhD of Lydia Rodriguez de la Nava.
+
+- Japan national project **Kakenhi** on Automatic music transcription based on formal language theory (JSPS Foundation, 2020-2025), involving Sakai Lab at Nagoya University and Tojo Lab at JAIST, Kanazawa. We are a funded external partner of the project.
+
+- French national project [**CollabScore**](https://anr.fr/Projet-ANR-20-CE27-0014) (ANR 2020-2023), aiming at the development of approaches for music score digitilization in semi-structured formats, with Optical Music Recognition (OMR) and methods for large scale collaborative correction and the valorization of music collections. It implies [Cedric](https://cedric.cnam.fr)/CNAM (coordinator), Irisa, [IReMus](https://www.iremus.cnrs.fr)/CNRS/SU, the [BnF](https://gallica.bnf.fr/) (French National Library), 2 libraries of [Fondation Royaumont](https://www.royaumont.com/fr/les-bibliotheques), and the company [Antescofo](https://www.antescofo.com).
+
+- European H2020-SC6-TRANSFORMATIONS projet [**Polifonia**](http://polifonia-project.eu)  (2021-2024) *a digital harmoniser for musical heritage knowledge*. The objective of the project is to realise an ecosystem of computational methods and tools supporting discovery, extraction, encoding, interlinking, classification, exploration of, and access to, European musical heritage knowledge on the Web, and to demonstrate that these tools improve the state of the art of Social Science and Humanities methodologies. The partners are Alma Mater Studiorum, Università di Bologna (coordinateur), Open University, Stichting Vrije Universiteit Amsterdam, Insight Centre for Data Analytics, NUI Galway, Istituto Centrale del Catalogo e della Documentazione, Istituto Centrale per i Beni Sonori e Audiovisivi, IReMus/CNRS/SU, Cedric/CNAM, Netherlands Institute for Sound and Vision, Royal Netherlands Academy of Arts and Sciences, Digital Paths srl.
+
+  
