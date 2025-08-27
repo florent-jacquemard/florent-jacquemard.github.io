@@ -36,9 +36,9 @@
 	<p class="archive__item-teaser" itemprop="description">
 	{% if post.network %}{{ post.network }}{% endif %}
 	{% if post.begindate and post.enddate%}
-		{{ post.begindate | date_to_string }} &mdash; {{ post.enddate | date_to_string }}
+		{{ post.begindate | date: "%Y" }} &mdash; {{ post.enddate | date: "%Y" }}
 	{% elsif post.begindate%}
-		{{ post.begindate | date_to_string }}
+		{{ post.begindate | date: "%Y" }}
 	{% endif %}
 	</p>
 	<p>
