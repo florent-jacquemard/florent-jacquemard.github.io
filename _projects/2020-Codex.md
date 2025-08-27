@@ -1,8 +1,10 @@
 ---
 name: Codex
+link: "https://project.inria.fr/codex"
 fullname: Generation and processing digital music scores
 network: Inria Exploratory Action
-duration: 10-2020 &mdash; 10-2023
+begindate: 10-2020 
+enddate: 10-2023
 role: responsible of the project
 ---
 

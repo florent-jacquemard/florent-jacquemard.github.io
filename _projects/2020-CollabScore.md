@@ -1,8 +1,10 @@
 ---
 name: CollabScore
+link: "https://collabscore.cnam.fr"
 fullname: Collaborative spaces for digitalized music scores
 network: ANR
-duration: 10-2020 &mdash; 10-2023
+begindate: 10-2020 
+enddate: 10-2023
 ---
 
 This project aims at developing approaches for music score digitalisation in semi-structured formats, with Optical Music Recognition (OMR) and methods for large scale collaborative correction and the valorisation of music collections. 
