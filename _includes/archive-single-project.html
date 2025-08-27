@@ -42,6 +42,6 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.fullname %}<p class="archive__item-excerpt" itemprop="description">{{ post.fullname }}{% endif %}
-	{{ content }}
+	{{ post.content }}
   </article>
 </div>
