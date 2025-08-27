@@ -34,12 +34,15 @@
 	{% if post.fullname %}{{ post.fullname }}{% endif %}
 	</h3>
 	<p class="archive__item-teaser" itemprop="description">
-	{% if post.network %}({{ post.network }}){% endif %}
+	{% if post.network %}{{ post.network }}{% endif %}
 	{% if post.begindate and post.enddate%}
 		{{ post.begindate | date: '%d %B %Y' }} &mdash; {{ post.enddate | date: '%d %B %Y' }}
 	{% elsif post.begindate%}
 		{{ post.begindate | date: '%d %B %Y' }}
 	{% endif %}
+	</p>
+	<p>
+	{% if post.role %}role: {{ post.role }}{% endif %}
 	</p>
 	<p class="archive__item-body">{{ post.content | markdownify }}</p>
     {% if post.read_time %}
