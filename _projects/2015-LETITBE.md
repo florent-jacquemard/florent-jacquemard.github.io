@@ -1,8 +1,8 @@
 ---
 name: LETITBE 
 network: PHC Amadeus
-begindate: 2015 
-enddate: 2016
+begindate: 2015-01-01 
+enddate: 2016-01-01
 role: responsible for the french side
 fullname: Logical Execution Time for Interactive and Composition Assistance Music Systems
 ---

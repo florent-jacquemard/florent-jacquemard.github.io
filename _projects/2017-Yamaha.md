@@ -3,8 +3,8 @@ name: Jido Sayfu 採譜
 link: "http://www.yamaha-mf.or.jp/shien/report/2017/sakai01.html"
 fullname: Rhythm Transcription
 network: Yamaha Music Foundation
-begindate: 2017-04
-enddate: 2018-04
+begindate: 2017-04-01
+enddate: 2018-04-01
 role: co-PI with prof. Masahiko Sakai (Nagoya University).
 ---
 

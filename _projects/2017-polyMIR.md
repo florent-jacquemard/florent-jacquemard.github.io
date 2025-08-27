@@ -1,8 +1,8 @@
 ---
 name: PolyMIR 
 network: Émergence Sorbonne Universités
-begindate: 2017
-enddate: 2018
+begindate: 2017-01-01
+enddate: 2018-01-01
 fullname: Music Information Retrieval in Polyphonic Corpora
 ---
 
