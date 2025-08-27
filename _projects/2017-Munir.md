@@ -3,8 +3,8 @@ name: Munir
 link: "http://munir.cnam.fr"
 network: ANR-FRQSC-2
 fullname: Music Notation Information Retrieval
-begindate: 2017 
-enddate: 2020
+begindate: 2017-05 
+enddate: 2020-10
 ---
 
 Project between [Cedric/CNAM](https://cedric.cnam.fr) and [DDMAL](https://ddmal.music.mcgill.ca)/[CIRMMT](https://www.cirmmt.org) and [Mc Gill University](https://www.mcgill.ca)

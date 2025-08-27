@@ -3,8 +3,8 @@ name: Polifonia
 link: "http://polifonia-project.eu"
 fullname: A digital harmoniser for musical heritage knowledge
 network: H2020-SC6-TRANSFORMATIONS
-begindate: 2021-10 
-enddate: 2025-10
+begindate: "2021-10" 
+enddate: "2025-10"
 ---
 
  The objective of this European project is to realise an ecosystem of computational methods and tools supporting discovery, extraction, encoding, interlinking, classification, exploration of, and access to, European musical heritage knowledge on the Web, and to demonstrate that these tools improve the state of the art of Social Science and Humanities methodologies. 
