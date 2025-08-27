@@ -33,15 +33,15 @@
       	{% endif %}
    	  	{% if post.network %}({{ post.network }}){% endif %}
 		{% if post.begindate and post.enddate%}
-			<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.begindate | date: '%d %B %Y'
-		}} -- {{ post.enddate | date: '%d %B %Y' }}</p>
+			<p class="page__meta">{{ post.begindate | date: '%d %B %Y' }} - {{ post.enddate | date: '%d %B %Y' }}</p>
 		{% elsif post.begindate%}
-			<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.begindate | date: '%d %B %Y' }}</p>
+			<p class="page__meta"></i> {{ post.begindate | date: '%d %B %Y' }}</p>
 		{% endif %}
     </h3>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.fullname %}<p class="archive__item-excerpt" itemprop="description">{{ post.fullname }}{% endif %}
+	{{ content }}
   </article>
 </div>
