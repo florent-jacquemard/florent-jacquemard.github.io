@@ -38,10 +38,10 @@
 			<p class="page__meta"></i> {{ post.begindate | date: '%d %B %Y' }}</p>
 		{% endif %}
     </h3>
+	{% if post.fullname %}<p class="archive__item-excerpt" itemprop="description">{{ post.fullname }}{% endif %}
+	<p class="page__content">{{ post.content | markdownify }}</p>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.fullname %}<p class="archive__item-excerpt" itemprop="description">{{ post.fullname }}{% endif %}
-	{{ post.content }}
   </article>
 </div>
