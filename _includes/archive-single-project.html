@@ -39,7 +39,7 @@
 	{% endif %}
     </p>
 	{% if post.fullname %}
-		<p class="archive__item-teaser" itemprop="description">{{ <b>post.fullname</b> }}
+		<p class="archive__item-teaser" itemprop="description"><strong>{{ post.fullname }}</strong></p>
 	{% endif %}
 	<p class="archive__item-body">{{ post.content | markdownify }}</p>
     {% if post.read_time %}
