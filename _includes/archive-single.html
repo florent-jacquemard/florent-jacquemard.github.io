@@ -38,8 +38,8 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-	{% if page.authors %}
-      <p>Authors: <i>{{ page.authors }}</i></p>
+	{% if post.authors %}
+      <p>{{ post.authors }}</p>
 	{% endif %}
 
 	{% if post.collection == 'teaching' %}
@@ -53,7 +53,6 @@
 	{% if post.collection == 'projects' %}
 		<p><a href=" {{ post.link }} ">post.name</a>
 	{% endif %}
-
 
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
