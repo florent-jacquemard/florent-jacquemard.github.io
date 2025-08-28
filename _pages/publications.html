@@ -5,9 +5,17 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% if site.author.hal or site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on 
 {% endif %}
+{% if site.author.hal and site.author.googlescholar %}
+	<a href="{{site.author.hal}}">HAL</a> and <a href="{{site.author.googlescholar}}">Google Scholar</a>.
+{% elsif site.author.hal %}
+	<a href="{{site.author.hal}}">HAL</a>.
+{% elsif site.author.googlescholar %}
+	<a href="{{site.author.googlescholar}}">Google Scholar</a>.
+{% endif %}
+  </div>
 
 {% include base_path %}
 
