@@ -7,6 +7,7 @@ permalink: /publication/2025-11-03-Pitch-Spelling-Jazz-Lead-Sheets-and-Solo-Tran
 date: 2025-11-03
 venue: 'Proceedings of the 17th International Symposium on Computer Music Multidisciplinary Research (CMMR)'
 paperurl: 'https://works.hcommons.org/records/ts2pj-n8q68'
+hal: 'https://hal.science/view/index/docid/5230392'
 citation: 'Augustin Bouquillard and Florent Jacquemard &quot; Pitch Spelling Jazz Lead Sheets and Solo Transcriptions &quot; In Proceedings of the 17th International Symposium on Computer Music Multidisciplinary Research (CMMR), 2025.'
 ---
 abstract: 

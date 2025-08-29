@@ -13,7 +13,7 @@ redirect_from:
 - **Edit Distances** between strings and trees, 
 - Logic for Computer Science.
 
-In last years, my research project has been concerned with Computer Music and Digital Humanities, 
+During last years, my research project has been concerned with Computer Music and Digital Humanities, 
 more specifically with the processing of structured written music data (*digital music scores*), 
 and in particular the following problems:
 - the **creation** and **digitalisation** of music notation (automatic music transcription), 
@@ -25,17 +25,19 @@ and in particular the following problems:
 Formerly, I have worked on the application of the above formal methods to the verification of systems and software:
 - Interactive Music Systems, Real-Time Testing and Computer-Aided Composition at **[Ircam](https://www.ircam.fr)**, Paris (team [Mutant](http://repmus.ircam.fr/mutant)),
 - Verification of Web data management systems and computer security at **[LSV](http://www.lsv.fr)/ENS-Cachan**, 
-- Automated Deduction at **[Inria Nancy](http://www.loria.fr)**, **[MPI-I](https://www.mpi-inf.mpg.de)** Saarbrücken, **[SRI International](http://www.csl.sri.com)**, Stanford,
+- Automated Deduction and Software Verification at **[Inria Nancy](http://www.loria.fr)**, **[MPI-I](https://www.mpi-inf.mpg.de)** Saarbrücken, **[SRI International](http://www.csl.sri.com)**, Stanford,
 - Development of secure embedded software components for smartcards and payment terminals at the company **Trusted Logic**.
 
 ## News
 
 - papers on pitch spelling, the problem of inferring proper note names, 
-  in collaboration with Augustin Bouquillard, at [TENOR'24] and [CMMR'25] (Nov. 2025).
+  in collaboration with Augustin Bouquillard, at 
+  [TENOR'24](https://florent-jacquemard.github.io/publication/2024-04-01-Engraving-Oriented-Joint-Estimation-of-Pitch-Spelling-and-Local-and-Global-Keys) and 
+  [CMMR'25](https://florent-jacquemard.github.io/publication/2025-11-03-Pitch-Spelling-Jazz-Lead-Sheets-and-Solo-Transcriptions) (Nov. 2025).
 
 - fully automated transcription, with qparse, in [MEI](https://music-encoding.org), of 442 recordings of electronic drum-kits 
   of Google Magenta's [Groove MIDI Dataset](https://magenta.withgoogle.com/datasets/groove), 
-  presented at the Music Encoding Conference [MEC'25] in June 2025.
+  presented at the Music Encoding Conference [MEC'25](https://florent-jacquemard.github.io/publication/2025-06-03-Automated-MEI-Transcription-Dataset-of-Electronic-Drum-Kit-Recordings) in June 2025.
   The transcriptions can be found on  https://github.com/florento/MEI-GMD/
 
 - [paper](https://hal.inria.fr/hal-01857267) on the computation of [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit-distance measuring melodic similarity, based on weighted automata techniques. [Information & Computation](https://doi.org/10.1016/j.ic.2020.104652) vol. 282, 2022.
@@ -59,9 +61,3 @@ Formerly, I have worked on the application of the above formal methods to the ve
   This thesis project focuses on the study of similarity metrics and algorithms identifying the differences between digital musical scores, represented in the form of labeled trees.  
   The targeted applications are the approximate querying of collections of digital music scores, the development of tools for collaborative musical writing and version management and computational musicology, in particular corpus musicology, in collaboration with specialists in this field.  
   French proposal: [Distances entre partitions musicales numériques](files/propositions/distance-fr.pdf)
-
-## Research internship proposals 
-  - [Pitch Spelling in Jazz](files/propositions/spellingJazz.pdf)
-  - [Tempo Estimation in Automatic Music Transcription](files/propositions/tempo.pdf)
-  - [MusicXML output for an Intermediate Representation of Music Scores](files/propositions/musicxml.pdf)
-  - [Implantation and Evaluation of a melodic similarity distance](files/propositions/MontgeauSankoff.pdf)

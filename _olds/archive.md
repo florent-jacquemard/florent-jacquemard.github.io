@@ -3,7 +3,6 @@ title: old news
 description: archive of deleted news items
 ---
 
-
 - [poster](https://hal.archives-ouvertes.fr/hal-03847232) presentation by Lydia Rodriguez-de la Nava at the 9th International Conference on Digital Libraries for Musicology [DLfM 2022](https://dlfm.web.ox.ac.uk), joined with the annual conference of the International Association of Music Libraries (IAML): MIDI To Score Automated Drum Transcription.
 
 - [paper](https://hal.archives-ouvertes.fr/hal-03815760v3) at [WoRMS’22](https://sites.google.com/view/worms2022) on Automated Transcription of Electronic Drumkits.
@@ -17,10 +16,6 @@ description: archive of deleted news items
   organized by the [Chair of Discrete Optimization](https://www.epfl.ch/labs/disopt/),
   and in presence of members of the Chair of Discrete Optimization and [DCML](https://www.epfl.ch/labs/dcml/).
   title: Automated Music Transcription based on Formal Language Models.
-  
-- **research internship proposals**: 
-  - [End-2-End Automated Drum Transcription](files/propositions/ADT.pdf)
-  - [Automated Transcription of Jazz Soli](files/propositions/AutomatedTranscriptionJazzSoli.pdf)
 
 - [ASAP](https://github.com/fosfrancesco/asap-dataset): a new dataset by Francesco Foscarin, made of aligned piano music sheets and performances for the evaluation of automated transcription, see [ISMIR'20 paper](https://program.ismir2020.net/poster_4-09.html).    
 
@@ -67,3 +62,13 @@ description: archive of deleted news items
 * current version of the [qparse](https://gitlab.inria.fr/qparse/qparselib) library for automated music transcription.
 
 * [final report](http://www.yamaha-mf.or.jp/shien/report/2017/sakai01.html) of our Yamaha Music Foundation grant with Masahiko Sakai, Nagoya University (in japanese).
+
+
+
+## Research internship proposals 
+  - [Pitch Spelling in Jazz](files/propositions/spellingJazz.pdf)
+  - [Tempo Estimation in Automatic Music Transcription](files/propositions/tempo.pdf)
+  - [MusicXML output for an Intermediate Representation of Music Scores](files/propositions/musicxml.pdf)
+  - [Implantation and Evaluation of a melodic similarity distance](files/propositions/MontgeauSankoff.pdf)
+  - [End-2-End Automated Drum Transcription](files/propositions/ADT.pdf)
+  - [Automated Transcription of Jazz Soli](files/propositions/AutomatedTranscriptionJazzSoli.pdf)

@@ -7,6 +7,7 @@ permalink: /publication/2025-06-03-Automated-MEI-Transcription-Dataset-of-Electr
 date: 2025-06-03
 venue: 'Proceedings of the Music Encoding Conference (MEC)'
 paperurl: 'https://works.hcommons.org/records/ts2pj-n8q68'
+hal: 'https://hal.science/view/index/docid/5230366'
 citation: 'Florent Jacquemard,  Lydia Rodriguez-de la Nava &quot;Automated MEI Transcription of a Dataset of Electronic Drum Kit Recordings&quot; In proceedings of the Music Encoding Conference (MEC), 2025.'
 ---
 abstract: 
