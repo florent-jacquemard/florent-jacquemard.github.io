@@ -8,6 +8,8 @@ description: archive of deleted news items
 - [paper](https://hal.archives-ouvertes.fr/hal-03815760v3) at [WoRMS’22](https://sites.google.com/view/worms2022) on Automated Transcription of Electronic Drumkits.
   [slides](https://project.inria.fr/codex/files/2023/01/WoRMS22.pdf) of the presentation.
 
+- [paper](https://hal.inria.fr/hal-01857267) on the computation of [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit-distance measuring melodic similarity, based on weighted automata techniques. [Information & Computation](https://doi.org/10.1016/j.ic.2020.104652) vol. 282, 2022.
+
 - [talk](https://project.inria.fr/codex/files/2022/10/AEx20221006.pdf) at Inria’s *1/2h de science*, 6 oct. 2022. A 30 min presentation of the Exploratory Action [Codex]((https://project.inria.fr/codex)) on *Musical Notation Processing*, at Inria Paris center, with a focus on our activity on transcription.
 
 - meeting of the JSPS Kakenhi, 15-16 sept. 2022, Inria center, and Maison Suger, Paris.
@@ -63,6 +65,16 @@ description: archive of deleted news items
 
 * [final report](http://www.yamaha-mf.or.jp/shien/report/2017/sakai01.html) of our Yamaha Music Foundation grant with Masahiko Sakai, Nagoya University (in japanese).
 
+
+## PhD proposals
+- [Grammar Generative Models for Music Notation Processing](files/propositions/generation-en.pdf).
+   The objective of this thesis proposal is the development, in the context of musical notation processing, of deep generative models guided by a grammar, in order to produce well-formed structured results.  
+   The main aimed application is the automatic transcription of piano performances recorded in the symbolic MIDI format.  
+   French proposal: [Modèles génératifs grammaticaux pour le traitement de la notation musicale](files/propositions/generation-fr.pdf)
+- [Digital Music Score Distances](files/propositions/distance-en.pdf).
+  This thesis project focuses on the study of similarity metrics and algorithms identifying the differences between digital musical scores, represented in the form of labeled trees.  
+  The targeted applications are the approximate querying of collections of digital music scores, the development of tools for collaborative musical writing and version management and computational musicology, in particular corpus musicology, in collaboration with specialists in this field.  
+  French proposal: [Distances entre partitions musicales numériques](files/propositions/distance-fr.pdf)
 
 
 ## Research internship proposals 
