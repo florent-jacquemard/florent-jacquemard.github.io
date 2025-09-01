@@ -36,11 +36,13 @@
 	{% else %}
    	    <a href="{{ base_path }}{{ post.url }}" rel="permalink"><strong>{{ title }}</strong></a>
    	{% endif %}
-	{% if post.fullname %}{{ post.fullname }}{% endif %}
+	{% if post.fullname %}
+		&nbsp;{{ post.fullname }}
+	{% endif %}
 	{% if post.begindate and post.enddate%}
-		{{ post.begindate | date: "%Y" }} &mdash; {{ post.enddate | date: "%Y" }}
+		&nbsp;{{ post.begindate | date: "%Y" }} &mdash; {{ post.enddate | date: "%Y" }}
 	{% elsif post.duration%}
-		{{ post.duration | date: "%Y" }}
+		&nbsp;{{ post.duration | date: "%Y" }}
 	{% endif %}
 	</h2>
 
