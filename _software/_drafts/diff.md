@@ -1,5 +1,5 @@
 ---
-name: diff
+name: scorediff
 begindate: 2019-01-01
 enddate: 2019-12-31
 sources: https://gitlab.inria.fr/qparse/qparselib

@@ -1,13 +1,14 @@
 ---
-name: diff
+name: scorediff
 begindate: 2019-01-01
 enddate: 2019-12-31
-sources: https://gitlab.inria.fr/qparse/qparselib
-permalink: /soft/2019-diff
+sources: https://github.com/fosfrancesco/music-score-diff
+permalink: /soft/2019-scorediff
 organization: CNAM and Inria
 ---
 
-A tool to compute the differences between two music scores, given in XML encoding (MusicXML or MEI),  
+A tool to compute the differences between two music scores, given in XML encoding 
+([MusicXML](https://www.musicxml.com) or [MEI](https://music-encoding.org)),  
 and visualize these differences side-to-side.
 
 Our initial goal was to implement for music scores a utility similar to the Unix diff command for text files. 
