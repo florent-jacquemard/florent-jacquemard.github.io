@@ -52,11 +52,6 @@ layout: default
         </header>
         {% endunless %}
 
-		<!-- Line of links -->
-		{% if page.collection == 'publications' %}
-			{% include archive-single-links.html %}
-		{% endif %}
-
       <section class="page__content" itemprop="text">
         {{ content }}
 
@@ -101,6 +96,26 @@ layout: default
 
       {% include post_pagination.html %}
     </div>
+
+	<!-- Line of links -->
+	{% if page.collection == 'publications' %}
+		{% if page.paperurl %}
+		<a href="{{ page.paperurl }}">Access Paper</a>
+		{% elsif page.hal %}
+		<a href="{{ page.hal }}">Access Paper</a>
+		{% endif %}
+		{% if page.pdf %}
+		<a href="{{ page.pdf }}">Download PDF</a>
+		{% elsif page.hal %}
+		<a href="{{ page.hal }}/document">Download PDF</a>
+		{% endif %}
+		{% if page.slides %}
+		<a href="{{ page.slides }}">Slides</a>
+		{% endif %}
+		{% if page.bibtex %}
+		<a href="{{ page.bibtex }}">BibTeX</a>
+		{% endif %}
+	{% endif %}
 
     {% if site.comments.provider and page.comments %}
       {% include comments.html %}
