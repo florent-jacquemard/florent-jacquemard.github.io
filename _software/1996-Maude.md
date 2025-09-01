@@ -1,6 +1,6 @@
 ---
 name: Maude
-duration: "1996"
+begindate: 19961201
 organization: SRI International
 main_dev: Steven Eker
 ---

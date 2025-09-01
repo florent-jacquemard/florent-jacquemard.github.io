@@ -41,8 +41,8 @@
 	{% endif %}
 	{% if post.begindate and post.enddate%}
 		&nbsp;{{ post.begindate | date: "%Y" }} &mdash; {{ post.enddate | date: "%Y" }}
-	{% elsif post.duration%}
-		&nbsp;{{ post.duration | date: "%Y" }}
+	{% elsif post.begindate%}
+		&nbsp;{{ post.begindate | date: "%Y" }}
 	{% endif %}
 	</h2>
 

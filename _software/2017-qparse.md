@@ -1,6 +1,7 @@
 ---
 name: qparse 
-duration: 2017 &mdash; Present
+begindate: 20170101
+enddate: 20251231
 sources: https://gitlab.inria.fr/qparse/qparselib
 organization: Inria
 ---

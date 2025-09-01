@@ -1,7 +1,9 @@
 ---
 name: SPASS
 link: https://www.mpi-inf.mpg.de/departments/automation-of-logic/software/spass-workbench/
-duration: 1997 &mdash; 1998
+begindate: 19970101
+enddate: 19981231
+
 organization: MPI-I
 ---
 

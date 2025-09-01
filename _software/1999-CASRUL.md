@@ -2,6 +2,8 @@
 name: CASRUL
 link: http://www.loria.fr/equipes/cassis/softwares/casrul/ 
 duration: 1999 &mdash; 2000
+begindate: 19990101
+enddate: 20001231
 organization: Inria Nancy, LORIA
 ---
 
