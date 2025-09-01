@@ -1,0 +1,14 @@
+---
+title: "Symbolic Weighted Visibly Pushdown Automata"
+collection: portfolio
+image: "/images/500x300.png"
+excerpt: "Short description of portfolio item number 1"
+---
+
+quantitative language models over infinite alphabets
+
+quantitative parsing
+
+This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+
+bli-bla

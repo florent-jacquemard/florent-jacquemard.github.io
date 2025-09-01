@@ -7,7 +7,16 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% for post in site.portfolio reversed %}
+<div class="row">
+	<div class="column">
+		<img src="/images/500x300.png" alt="Mountains" style="width:33%">
+	</div>
+	<div class="content">
+		<h3>My Work</h3>
+		<p>Lorem ipsum..</p>
+	</div>
+</div>
+{% include archive-single.html %}
 {% endfor %}
 
