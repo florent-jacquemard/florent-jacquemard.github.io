@@ -11,4 +11,6 @@ citation: 'Yosuke Amagasu, Florent Jacquemard, Masahiko Sakai. &quot;Tokenizatio
 ---
 
 abstract: 
-There generally exists no simple one-to-one relationship between the events of a MIDI sequence, such as note-on and note-off messages, and the corresponding music notation elements, such as notes, rests, chords, and ornaments. We propose a method for building a formal correspondence between them through a notion of tokens in an input MIDI event sequence and an effective tokenization approach based on a hierarchical representation of music scores. Our tokenization procedure is integrated with an algorithm for music transcription based on parsing wrt a weighted tree grammar. Its effectiveness is shown on examples.
+There generally exists no simple one-to-one relationship between the events of a MIDI sequence, such as note-on and note-off messages, and the corresponding music notation elements, such as notes, rests, chords, and ornaments. We propose a method for building a formal correspondence between them through a notion of tokens in an input MIDI event sequence and an effective tokenization approach based on a hierarchical representation of music scores. 
+
+Our tokenization procedure is integrated with an algorithm for music transcription based on parsing wrt a weighted tree grammar. Its effectiveness is shown on examples.
