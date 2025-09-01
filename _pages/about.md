@@ -29,7 +29,6 @@ Formerly, I have worked on the application of the above formal methods to the ve
 - Development of secure embedded software components for smartcards and payment terminals at the company **Trusted Logic**.
 
 ## News
-
 - papers on pitch spelling, the problem of inferring proper note names, 
   in collaboration with Augustin Bouquillard, at 
   [TENOR'24](https://florent-jacquemard.github.io/publication/2024-04-01-Engraving-Oriented-Joint-Estimation-of-Pitch-Spelling-and-Local-and-Global-Keys) and 
@@ -48,11 +47,18 @@ Formerly, I have worked on the application of the above formal methods to the ve
 
 - end of European H2020-SC6-TRANSFORMATIONS projet [**Polifonia**](http://polifonia-project.eu)  (2021-2024) *a digital harmoniser for musical heritage knowledge*. The objective of the project is to realise an ecosystem of computational methods and tools supporting discovery, extraction, encoding, interlinking, classification, exploration of, and access to, European musical heritage knowledge on the Web, and to demonstrate that these tools improve the state of the art of Social Science and Humanities methodologies. The partners are Alma Mater Studiorum, Università di Bologna (coordinateur), Open University, Stichting Vrije Universiteit Amsterdam, Insight Centre for Data Analytics, NUI Galway, Istituto Centrale del Catalogo e della Documentazione, Istituto Centrale per i Beni Sonori e Audiovisivi, IReMus/CNRS/SU, Cedric/CNAM, Netherlands Institute for Sound and Vision, Royal Netherlands Academy of Arts and Sciences, Digital Paths srl.
 
-- final year of the INRIA Exploratory Action [**Codex**](https://project.inria.fr/codex) (2020-2023) on the formal representation and processing of symbolic music data, and applications to information retrieval in digital music score databases, computational musicology, music transcription and corpus digitization. The project is starting in November 2020 with the PhD of Lydia Rodriguez de la Nava.
+- final year of the INRIA Exploratory Action [**Codex**](https://project.inria.fr/codex) (2020-2023) on the formal representation and processing of symbolic music data, and applications to information retrieval in digital music score databases, computational musicology, music transcription and corpus digitization. The project is starting in November 2020 with the PhD 
+of Lydia Rodriguez de la Nava.
+
+## PhD and intership proposals
+more to come...
 
 ## Contact info
 Cedric, CNAM, 2 rue Conté, 75003 Paris, France
+
 Office 37.1.40
+
 tel: +33 6 50 08 84 53
+
 email: florent.jacquemard (at) inria . fr
 
