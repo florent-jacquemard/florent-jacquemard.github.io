@@ -26,7 +26,20 @@ I have been supervising the following PhD students:
 
 <h2 class="archive__item-title" itemprop="headline">Supervision of Master Thesis</h2>
 <p>I have been supervising the following Master's interships:</p>
-...
+<dl>
+	{% for student in site.data.students %}
+	<dt><strong>{{ student.name }}</strong> ({{ student.degree}}, {{ student.school}}) &bull; {{ student.duration}}</dt>
+	<dd> <!-- PhD title -->
+		{% if student.url %}
+		<a href="{{ student.url }}">{{ student.title }}.</a>
+		{% else %}
+		{{ student.title }}.
+		{% endif %}
+	</dd>
+	{% if student.codir %}<dd>co-supervised with {{ student.codir }}</dd>{% endif %}
+	{% if student.alumni %}<dd>{{ student.alumni }}</dd>{% endif %}
+	{% endfor %}
+</dl>
 
 <h2 class="archive__item-title" itemprop="headline">Lectures</h2>
 {% for post in site.teaching reversed %}
