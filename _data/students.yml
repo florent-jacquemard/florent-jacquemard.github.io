@@ -1,0 +1,203 @@
+# Students
+# Master and Bachelor interns
+
+- name: Sylvain Meunier
+  duration: 2024
+  degree: Master 1st year
+  school: ENS Rennes
+  title: Tempo curves generation, estimation and analysis
+
+- name: Clément Buon
+  duration: 2023
+  degree: Master 1st year 
+  school: INALCO, Université Sorbonne Paris Cité
+  title: Development of a MusicXML export facility from an Intermediate Representation of digital music scores
+
+- name: Augustin Bouquillard
+  duration: 2023
+  degree: Licence (Bachelor last year)
+  school: University Paris Dauphine, PSL
+  title: Pitch Spelling algorithms for Jazz
+
+- name: Teysir Bouaeb
+  duration: 2022
+  degree: Master 1st year
+  school: ENSTA, Intitut Polytechnique de Paris
+  title: Parameter optimisation for an Automatic Music Transcription procedure on a monophonic dataset
+
+- name: Augustin Bouquillard
+  duration: 2022
+  degree: Licence (Bachelor 3d year)
+  school: University Paris Dauphine, PSL
+  title: Study of an voice separation algorithm in the context of piano transcription
+
+- name: Martin Digard  
+  duration: 2021
+  degree: Master, 2d year
+  school: INALCO, Université Sorbonne Paris Cité
+  title: Automated Drum Transcription
+
+- name: Leyla Villaroel
+  duration: 2021
+  degree: Master
+  codir: Philippe Rigaux
+  school: Pontificia Universidad Católica de Chile, internship at CNAM 
+  title: On-the-fly music transcription (funded by a program between Inria Chile and Chile Universities)
+
+- name: Henry Boisgibault
+  duration: 2017
+  degree: M1
+  codir: Philippe Rigaux
+  school: SupElec, internship at CNAM
+  title: Mesures de similarité rythmique dans les bases de partitions numériques
+
+- name: Florent Mercier
+  duration: 2017
+  degree: Master
+  codir: Jean Bresson
+  school: U. Paris 11, internship at Ircam
+  title: Representation des données musicales rythmiques
+
+- name: Pierre Donat-Bouillud 
+  duration: 2016
+  degree: Master
+  codir: Arshia Cont
+  school: ENS Rennes, internship at Ircam
+  title: Multimedia scheduling for interactive multimedia systems
+
+- name: Adrien Ycart
+  duration: 2015
+  degree: Master
+  school: SupTelecom, intership at Ircam
+  title: Interactive Rhythm Quantisation
+  url: https://hal.inria.fr/hal-01315689v2
+
+- name: Clément Poncelet Sanchez
+  duration: 2014
+  degree: Master
+  title: Environnement de test pour un système temps-réel de performance en musique mixte
+  url: https://hal.inria.fr/hal-01021617
+  school: UPMC, internship at Ircam
+
+- name: Adrien Maire
+  duration: 2013
+  degree: L3
+  school: ENS Cachan, internship at Ircam
+  title: Quantification musicale avec apprentissage sur des exemples
+
+- name: Pierre Donat-Bouillud 
+  duration: 2013
+  degree: L3
+  school: ENS Rennes, internship at Ircam
+  url: https://hal.inria.fr/hal-00870104
+  title: Transcription rythmique dans OpenMusic
+
+- name: Léa Fanchon
+  duration: 2012
+  degree: Master
+  school: École Centrale, intership at Ircam
+  title: Analyse statique des paramètre performatifs dans les partitions de musique mixte
+  url: https://hal.inria.fr/hal-00829821v2
+
+- name: Guillaume Baudard
+  duration: 2012
+  degree: Master
+  school: ENS Rennes, intership at Ircam
+  title: Antescofo - vers une programmation synchrone
+  url: https://hal.inria.fr/hal-00850299
+
+- name: Jose Écheveste
+  duration: 2011
+  degree: Master
+  codir: Arshia Cont
+  school: Ircam
+  title: Étude des processus de synchronisation et coordination temps réel musicale pour l’accompagnement automatique
+  url: https://hal.inria.fr/hal-00642921
+
+- name: Adrien Boiret 
+  degree: Master
+  duration: 2010
+  codir: Luc Segoufin 
+  school: ENS Cachan
+  title: Grammaires hors-contexte d’arbres de rang non-borné
+
+- name: Jérémy Dimino 
+  degree: Master
+  duration: 2010
+  codir: Luc Segoufin
+  school: ENS Cachan
+  title: Automates d’arbres et données
+  url: https://hal.inria.fr/hal-00769249v3
+
+- name: Ryma Abassi
+  degree: Master
+  duration: 2010
+  school: Sup’Com Tunis, internship at LSV, ENS Cachan
+  title: Vérification de politiques de sécurité XACML
+  url: https://hal.inria.fr/inria-00578884
+
+- name: Yoshiharu Kojima
+  degree: Master
+  duration: 2009
+  school: Nagoya University
+  title: Controlled Term Rewriting
+  url: https://hal.inria.fr/hal-00643160
+
+- name: Sawsen Ben Nasr
+  degree: Master
+  duration: 2009
+  school: ENSI Tunis, internship at LSV, ENS Cachan
+  title: Validation of a framework for automated inductive theorem proving
+
+- name: Nihel Ben Youssef
+  degree: Master
+  duration: 2008
+  school: Sup’Com Tunis, internship at LSV, ENS Cachan
+  title : Vérification de la conformité et de la complétude des règles de filtrage d’un firewall par rapport à une politique de sécurité
+  url: https://hal.inria.fr/inria-00578926
+
+- name: Hedi Benzina
+  duration: 2008
+  degree: Master
+  school: Sup’Com Tunis, internship at LSV, ENS Cachan
+  title: Conception et réalisation d’un système de démonstration automatique par récurrence
+
+- name: Mohamed Anis Benelbahri
+  duration: 2008
+  degree: Master
+  school: Sup’Com Tunis, internship at LSV, ENS Cachan
+  title: Validation des règles de configuration d'un firewall
+
+- name: Camille Vacher 
+  degree: Master
+  duration: 2007
+  school: ENS Cachan
+  title: Automates d’arbres à mémoire d’ordre supérieur
+
+- name: Nicolas Perrin
+  degree: L3
+  duration: 2006
+  codir: Hubert Comon
+  school: ENS Lyon, internship at LSV, ENS Cachan
+  title: Visibly Tree Automata
+  url: https://hal.inria.fr/inria-00579009
+
+- name: Stéphanie Delaune
+  degree: Master
+  duration: 2003
+  school: ENS Cachan
+  title: Décision de la sûreté des protocoles contre les attaques par dictionnaire
+
+- name: Sanar Sfar
+  degree: Master
+  school: Sup'Com Tunis, internship at LORIA, Nancy
+  duration: 1999
+  title: Specification et certification du protocole de telecommunication Kermit a l’aide du demonstrateur automatique par recurrence Spike
+
+- name: Véronique Cortier
+  degree: L3
+  duration: 1998 
+  school: ENS Cachan, internship at MPI-I Saarbrücken
+  title: Complexité de problèmes de décision en unification rigide
+
+

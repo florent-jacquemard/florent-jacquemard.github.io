@@ -1,0 +1,146 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+
+# Yamaha MF
+- project: Jido Sayfu 採譜  (grant of the Yamaha Music Foundation)
+  duration: 04-2017 &mdash; 04-2018
+  role: co-PI with prof. Masahiko Sakai (Nagoya University).
+  url: "http://www.yamaha-mf.or.jp/shien/report/2017/sakai01.html"
+  description: Grant of one year by the Yamaha Music Foundation, for a collaboration with Nagoya University and Ircam on Rhythm Transcription.
+
+# GioQoso
+- project: GioQoso (CNRS defi Mastodons 2016)
+  duration: 2016 &mdash; 2018
+  url: "https://gioqoso.irisa.fr"
+  description: project between French National Library BnF Paris, Vertigo team in Cedric CNAM, CESR Tours, IReMus Paris, team DKM/Shaman at Irisa, Lannion on methods and tools for the quality management of data in collaborative corpora of digital music scores.
+  
+# MuNIR co-supervision of PhD funded
+- project: Munir (ANR-FRQSC-2)
+  duration: 2017 &mdash; 2020
+  url: "http://munir.cnam.fr"
+  description: project between CEDRIC/CNAM and Mc Gill and Montréal U. on Music Notation Information Retrieval. I co-direct, with Philippe Rigaux at CNAM, the PhD of Francesco Foscarin on transcription, funded by this project.
+
+
+# PolyMIR convergence / emergence Sorbonne
+- project: PolyMIR (emergence program, Sorbonne Universités) 
+  duration: 2017 &mdash; 2018
+  description: 18 months exploratory project between IReMus, Ircam/STMS and CNAM-CEDRIC on Music Information Retrieval in Polyphonic Corpora.
+
+# UPI Ircam rhythm
+- project: RQ (Ircam Unité-Projet Innovation)
+  duration: 2016
+  url: "http://repmus.ircam.fr/cao/rq"
+  role: Principal Investigator
+  description: project internal funded by Ircam for the development of an OpenMusic Library on Rhythm Quantification, in collaboration with composers and musicologists.
+
+# Musical (RNSC)
+- project: MusICAL (RNSC)
+  duration: 2015
+  url: "http://repmus.ircam.fr/musical/home"
+  description: thematic network of the RNSC (National Network on Complex Systems) on interaction algorithmic composition and languages applied to music, involving Ircam (UMR 9912 STMS), AlgoMus from Universities Lille 1 and Picardie Jules Verne, LaBRI form University Bordeaux, Grame (Centre National de Création Musicale, Lyon), IReMus from Universities Paris-Sorbonne / CNRS / BnF and UMI UMMISCO IRD / UPMC.
+
+# PHC Amadeus LETITBE 
+- project: LETITBE (PHC Amadeus - France-Austria)
+  duration: 2015 &mdash; 2016
+  role: responsible for the branch partner
+  description: 2 years partnership (Partenariat Hubert Curien Amadeus) between the Computational Systems group at the Software Systems Center of Salzburg University and Inria’s team Mutant at Ircam, Paris, on Logical Execution Time For Interactive Music Systems. The main objective of the project was the application to the development of interactive music systems of programming paradigms and formal techniques and tools for real-time critical embedded software. The PhD of Pierre Donat-Bouillud has started during this project.
+
+# ANR JCJCJ Jean EFFICACe
+- project: EFFICACe (ANR JCJC SIMI 2)
+  duration: 2013 &mdash; 2015
+  url: "http://repmus.ircam.fr/efficace/home"
+  description: collaboration to a project leaded by Jean Bresson, at Ircam, on  computation, time and interactions in computer-aided music composition.
+
+# ANR Inedit  
+- project: INEDIT (ANR ConInt)
+  duration: 2012 &mdash; 2015
+  url: "http://inedit.ircam.fr"
+  description: project between Ircam (UMR 9912 STMS), LaBRI (University Bordeaux) and Grame (Centre National de Création Musicale, Lyon) on authoring of time and interaction in real-time computer music.   
+
+# FOX
+- project: FOX (STREP FP7 ICT - FET-open)
+  duration: 2008 &mdash; 2010
+  url: "http://fox7.eu"
+  description: research network involving team Dahu (Inria), University of Oxford, Dortmund T. University, The University of Edinburgh, Universiteit van Amsterdam, Hasselt University, Uniwersytet Warszawski.
+
+# WebDam  European Research Council
+- project: Webdam (ERC)
+  duration: 2009 &mdash; 2013
+  url: "http://webdam.inria.fr/wordpress/index.html"
+  description: participation to the Advanced Investigator Webdam with prime investigator Serge Abiteboul, on the theme Foundation of Web data management.
+
+# ARC ACCESS
+- project: ACCESS (ARC Inria) 
+  role: coordinator
+  duration: 2010 &mdash; 2011
+  url: "http://acxml.gforge.inria.fr"
+  description: Action de Recherche Collaborative involving the teams Cassis, Pareo (Nancy), Mostrare (Lille) and Dahu (Saclay), on the theme Access Control Policies for XML, Verification, Enforcement and Collaborative Edition.
+
+# STIC Tunisie 2010
+- project: Brick (Inria-DGRSRT)
+  role: coordinator for the french partner 
+  duration: 2010 &mdash; 2011
+  url: "http://acxml.gforge.inria.fr/brick/"
+  description: Bilateral project (Inria-DGRSRT program) between the teams Cassis (Nancy, Inria), Dahu (Saclay, Inria) and team Digital Security (Tunis, Sup’Com) on the theme Formal verification of Web Services Security, XML Access Control Policies and Firewalls.
+  
+# STIC Tunisie 2008
+- project: FireB (Inria-DGRSRT)
+  role: coordinator for the french partner 
+  duration: 2008 &mdash; 2009
+  # url: "#"
+  description: Bilateral project (Inria-DGRSRT program) between the teams Cassis (Nancy, Inria), Dahu (Saclay, Inria) and team Digital Security (Tunis, Sup’Com) on the thema automated verification of firewall conformance to access control policies.
+  
+# STIC Tunisie 2006
+- project: SyDRA (Inria-DGRSRT)
+  role: coordinator for the french side 
+  duration: 2006 &mdash; 2007
+  # url: "#"
+  description: Project between the team Secsi (Saclay, Inria), the LaBRI (U. Bordeaux) and the team Digital Security (Tunis, Sup’Com) on the theme Automated inductive theorem proving techniques for the validation of protocols and distributed systems.
+
+# ANR AVOTE
+- project: AVOTÉ (ANR Sesur)
+  duration: 2007 &mdash; 2009
+  url: "http://www.lsv.fr/Projects/anr-avote/"
+  description: project between France Télécom R&D, Inria team SECSI at LSV (ENS Cachan), team Cassis at LORIA (Inria Nancy) and team DCS at Verimag (Grnoble) on the Formal Analysis of Electronic Voting Protocols.
+
+# ACI Rossignol
+- project: Rossignol (Action Concertee ACI Incitative Securite Informatique])
+  role: coordinator for the partner LSV/ENS Cachan 
+  duration: 2003 &mdash; 2006
+  # url: "#"
+  description: project between team MOVE (LIF, Marseille), team SECSI (Inria, LSV/ENS Cachan) and VERIMAG (Grenoble) on Algebraic properties and probabilistic models of security protocols.
+
+#RNTL Prouvé
+- project: PROUVE (RNTL)  
+  duration: 2003 &mdash; 2006
+  url: "http://www.lsv.fr/Projects/prouve/"
+  description : project between CRIL Technologies, France Telecom R&D, LORIA Inria Lorraine, Inria team SECSI at LSV ENS Cachan, Verimag (Grenoble) on Automated Verification Tools for Cryptographic Protocols.
+
+# RNTL EVA
+- project: EVA (RNTL network)
+  role: responsible for the industrial partner Trusted Logic, responsible for the academic partner LSV/ENS Cachan 
+  duration: 2000 &mdash; 2001 (at Trusted Logic) and 2002-2003 (at LSV)
+  # url: "#"
+  description: project between LSV (ENS Cachan), VERIMAG (Grenoble) and Trusted Logic SA (Versailles) on Explanation and verification of cryptographic protocols.
+
+# FET Open AVISS Michael 
+- project: AVISS (IST FP6 FET-open)
+  duration: 2000 &mdash; 2001
+  role: contribution to the preparation and submission.
+  description:  1 year assessment project between Universitat Freiburg, University Genova, Inria team Protheo at LORIA, Nancy on Automated Verification of Infinite State Systems. It has been  followed by the IST FET-open project AVISPA involving the same partners. http://www.avispa-project.org
+
+# societe analyse
+# PFC systematics
+# network for postdoc
+
+
+# IFIP WG 1.6
+# ADT Antescofo (Inria)
+# Nancy Region (cf. O. Bournez)
+
+
+
+
+
+  

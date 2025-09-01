@@ -1,0 +1,52 @@
+# Jobs
+
+- company: Inria Paris, France
+  position: Research Scientist
+  duration: Jan. 2017 &mdash; Present
+  summary: > # this means to ignore newlines
+      I currently conduct research on Computer Music, and more specifically on 
+      the processing of written music: 
+      <ul class="resume-item-list">
+      <li>formal abstract representation of music scores</li>
+      <li>IR and IE in digital score databases</li>
+      <li>similarity metrics to compare scores</li>
+      </ul>
+      with application to the following digital humanities problems
+      <li>automated music transcription</li>
+      <li>music analysis (digital musicology)</li>
+      <li>management of digital score collections and preservation of cultural heritage.</li>
+
+- company: Ircam, Inria Paris, France
+  position: Research Scientist in team Mutant (team leader Arshia Cont)
+  duration: Jan. 2012 &mdash; Dec. 2016
+  summary: Verification of Realtime Interactive Music Systems and Constraint Solving for Symbolic Music Representation.
+
+- company: LSV/ENS Cachan, Inria Saclay, France
+  position: Research Scientist in team Dahu, vice responsible of the project (project leader Luc Segoufin)
+  duration: Jan. 2008 &mdash; Dec. 2011
+  summary: In this team on verification on Databases, my activities focused on typing formalisms and XML schemas, verification and typechecking of tree transformations and XML updates, verification of XML access control policies.
+
+- company: LSV/ENS Cachan, Inria Saclay, France
+  position: Research Scientist in team Secsi, vice responsible of the project (project leader Jean Goubault-Larrecq)
+  duration: May 2002 &mdash; Dec. 2007
+  summary: Secsi stands for security in information systems and in this team I worked in symbolic verification of security protocols.
+
+- company: Trusted Logic SA, Versailles, France
+  position: Research Engineer 
+  duration: Jan. 2000 &mdash; Apr. 2002
+  summary: I spent two years mobility in the company TL specialized in in the develpement and certification of secure and open software technology for embedded systems (CEO Dominique Bolignano) where I had activities on conception of tools for static analysis of JavaCard programs, Common Criteria certification of a smartcard OS, development of an interoperable open framework for mobile payment terminals.
+
+- company: LORIA, Inria Nancy, France
+  position: Research Scientist in team Protheo (project leader Hélène Kirchner)
+  duration: Oct. 1998 &mdash; Dec. 2000
+  summary: In this team focused on automated deduction, I had activities in particular in inductive theorem proving and infinite state system verification methods applied to functional programs and security protocols.
+
+- company: Max Planck Institut für Informatik, Saarbrücken, Germany
+  position: Post-doctoral researcher in Programming Logic Group (group leader Harald Ganzinger)
+  duration: Jan. 1997 &mdash; Sept. 1998
+  summary: During this 20 months long post-doctoral stay in the research group of Harald Ganzinger on Automated Deduction, I had activities in first order theorem proving (with some contribution to the theorem prover SPASS), symbolic constraint solving and extended tree automata theory.
+
+- company: SRI International Computer Science Laboratory Menlo Park, CA, USA
+  position: Research Fellow in project Maude (project leader Jose Meseguer)
+  duration: Nov. 1996 &mdash; Dec. 1996
+  summary: Development of a tree automata module for the Maude system.
