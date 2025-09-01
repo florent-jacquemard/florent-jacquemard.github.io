@@ -5,11 +5,11 @@
   duration: 2023 &mdash; 2026
   title: Grammatical generative models for music notation processing
   codir: Philippe Rigaux and Nicolas Audebert
-  school: CNAM, SMI
+  school: CNAM, ED SMI
 
 - name: Lydia Rodriguez de la Nava
   degree: Phd
-  duration: 2020 &mdash; 2023
+  duration: 2020 &mdash; 2025
   title: Structured Models for Written Music Processing
   codir: Philippe Rigaux
   school: INRIA, EDITE Paris
@@ -20,7 +20,7 @@
   title: Langages a priori en transcription musicale
   codir: Philippe Rigaux
   school: CNAM, EDITE Paris
-  alumni: Francesco is now a post-doc at JKU in Vienna. Previously (2021), it has held a temporary lecturer and research assistant position at CNAM.
+  alumni: Francesco is now working at <a href="https://music.ai">MusicAI</a>, previously he has been a post-doc at JKU in Vienna, and has also held a temporary lecturer and research assistant position at CNAM.
 
 - name: Pierre Donat-Bouillud
   degree: Phd
