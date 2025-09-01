@@ -9,24 +9,20 @@ author_profile: true
 
 <h2 class="archive__item-title" itemprop="headline">Supervision of PhD</h2>
 I have been supervising the following PhD students:
-{% for student in site.data.students-phd %}
-<div class="resume-item  d-flex flex-column flex-md-row mb-2">
-	<div class="resume-content mr-auto">
-		<h4 class="mb-0" itemprop="description">
-			{{ student.name }} ({{ student.school}}) &bull; {{ student.duration}}
-		</h4>
-		<p class="resume-content mr-auto">
-			{% if student.url %}
+<dl>
+	{% for student in site.data.students-phd %}
+	<dt>{{ student.name }} ({{ student.school}}) &bull; {{ student.duration}}</dt>
+	<dd> <!-- PhD title -->
+		{% if student.url %}
 			<a href="{{ student.url }}">{{ student.title }}.</a>
-			{% else %}
+		{% else %}
 			{{ student.title }}.
-			{% endif %}
-			{% if student.codir %}<br>co-supervised with {{ student.codir }}.{% endif %}
-			{% if student.alumni %}<br>{{ student.alumni }}{% endif %}
-		</p>
-	</div>
-</div>
-{% endfor %}
+		{% endif %}
+	</dd>
+	<dd>{% if student.codir %}<br>co-supervised with {{ student.codir }}.{% endif %}</dd>
+	<dd>{% if student.alumni %}<br>{{ student.alumni }}{% endif %}</dd>
+	{% endfor %}
+</dl>
 
 <h2 class="archive__item-title" itemprop="headline">Supervision of Master Thesis</h2>
 <p>I have been supervising the following Master's interships:</p>
