@@ -6,7 +6,6 @@ organization: Inria, Ircam
 main_dev: Arshia Cont
 ---
 
-
 Antescofo (main developper Arshia Cont) 
 is a polyphonic Score Following system for mixed music 
 live performance (involving computers and analog instruments). 

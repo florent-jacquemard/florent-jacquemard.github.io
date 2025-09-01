@@ -16,7 +16,8 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
+
+	{% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
           {% if teaser contains "://" %}
@@ -27,6 +28,8 @@
           alt="">
       </div>
     {% endif %}
+
+	<!-- Title -->
     <h2 class="archive__item-title" itemprop="headline">
     {% if post.link %}
    		<a href="{{ post.link }}"><strong>{{ title }}</strong></a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -35,20 +38,39 @@
    	{% endif %}
 	{% if post.fullname %}{{ post.fullname }}{% endif %}
 	</h2>
+
+	<!-- Org and date -->
 	<p class="archive__item-teaser" itemprop="description">
-	{% if post.network %}{{ post.network }}{% endif %}
-	{% if post.begindate and post.enddate%}
-		{{ post.begindate | date: "%Y" }} &mdash; {{ post.enddate | date: "%Y" }}
-	{% elsif post.begindate%}
-		{{ post.begindate | date: "%Y" }}
+		{% if post.organization %}{{ post.organization }}{% endif %}
+		{% if post.begindate and post.enddate%}
+			{{ post.begindate | date: "%Y" }} &mdash; {{ post.enddate | date: "%Y" }}
+		{% elsif post.duration%}
+			{{ post.duration | date: "%Y" }}
+		{% endif %}
+	</p>
+
+	<!-- Sources Repository -->
+	{% if post.sources %}
+		<p>sources:{{ post.sources }}</p>
 	{% endif %}
-	</p>
-	<p>
-	{% if post.role %}role: {{ post.role }}{% endif %}
-	</p>
-	<p class="archive__item-body">{{ post.content | markdownify }}</p>
-    {% if post.read_time %}
-      	<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
+
+	<!-- read time -->
+	{% if post.read_time %}
+		<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+	{% endif %}
+
+		<!-- Excerpt -->
+		{% if post.excerpt and site.read_more != 'enabled' %}
+		<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+		{% elsif post.excerpt and site.read_more == 'enabled' %}
+		<p class="archive__item-excerpt" itemprop="description">
+		<p>{{ post.excerpt | markdownify | remove: '
+		<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p>
+		</p>
+		{% endif %}
+
+	<!-- Content
+		<p class="archive__item-body">{{ post.content | markdownify }}</p>
+	-->
   </article>
 </div>
