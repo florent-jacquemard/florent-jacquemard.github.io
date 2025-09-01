@@ -28,7 +28,7 @@ author:
   bio              : "Research Scientist"
   location         : "CNAM, 2 rue Conté</br> &nbsp; &nbsp; 75003 Paris, France"
   employer         : "INRIA"
-  uri              : "https://inria.fr"
+  uri              : # "https://inria.fr"
   email            : "florent.jacquemard@inria.fr" 
 
   # Academic websites

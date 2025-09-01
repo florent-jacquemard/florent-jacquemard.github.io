@@ -11,7 +11,7 @@ author_profile: true
 I have been supervising the following PhD students:
 <dl>
 	{% for student in site.data.students-phd %}
-	<dt>{{ student.name }} ({{ student.school}}) &bull; {{ student.duration}}</dt>
+	<dt><strong>{{ student.name }}</strong> ({{ student.school}}) &bull; {{ student.duration}}</dt>
 	<dd> <!-- PhD title -->
 		{% if student.url %}
 			<a href="{{ student.url }}">{{ student.title }}.</a>
@@ -19,8 +19,8 @@ I have been supervising the following PhD students:
 			{{ student.title }}.
 		{% endif %}
 	</dd>
-	<dd>{% if student.codir %}<br>co-supervised with {{ student.codir }}.{% endif %}</dd>
-	<dd>{% if student.alumni %}<br>{{ student.alumni }}{% endif %}</dd>
+	{% if student.codir %}<dd>co-supervised with {{ student.codir }}</dd>{% endif %}
+	{% if student.alumni %}<dd>{{ student.alumni }}</dd>{% endif %}
 	{% endfor %}
 </dl>
 
