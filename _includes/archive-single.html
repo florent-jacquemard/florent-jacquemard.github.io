@@ -65,6 +65,11 @@
 		<p><a href=" {{ post.link }} ">post.name</a>
 	{% endif %}
 
+	<!-- Illustration -->
+	{% if post.image %}
+		<br/><img src={{ post.image }}>
+	{% endif %}	
+
 	<!-- Excerpt -->
     {% if post.excerpt and site.read_more != 'enabled' %}
     	<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
