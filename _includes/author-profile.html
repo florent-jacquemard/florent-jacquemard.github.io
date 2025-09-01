@@ -29,7 +29,7 @@
       {% endif %}
       {% if author.employer %}
 	  	{% if author.employerurl %}
-        	<li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i><a href="{{ author.employerurl }}">{{ author.employer }}</a></li>
+        	<li class="author__desktop"><a href="{{ author.employerurl }}"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</a></li>
 		{% else %}
 			<li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
 		{% endif %}	
