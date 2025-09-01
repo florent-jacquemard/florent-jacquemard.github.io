@@ -6,17 +6,11 @@ tree-structured
 
 
 
-In CS, timings are generally represented by numerical values:  floating point numbers of integers when expressed in number of clock ticks.
+In Computer Science, timings are generally represented by numerical values: floating point numbers of integers when expressed in number of clock ticks.
+This is in particular the case in digital formats for storing music performances, whether audio, spectrograms, or MIDI files (discrete sets of events assigned with a start time and duration)
 
-This is in particular the case in digital representations of music performances, be it digital audio formats, spectrograms, or the discrete MIDI, where notes assigned an start time, duration, pitch and velocity.
-
-
-
-Written music notation however is a symbolic format, where notes’ durations are expressed with a small set of symbols, corresponding to durations defined by successive divisions (whole notes, half notes etc) and combined with some constructions (ties, dots, tuplets…).
-
+Written music notation is however a symbolic format, where notes’ durations are expressed with a small set of symbols, corresponding to durations defined by successive divisions (whole notes, half notes etc) and combined with some constructions (ties, dots, tuplets…).
 It is also the case of the multiple digital representations of music scores, either text or XML. Despite hierarchical definition of symbols’ durations and groupings… representation of durations in current encoding is essentially sequential (unstructured).
-
-
 
 We propose an IR …
 
