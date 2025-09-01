@@ -1,12 +1,11 @@
 ---
 name: qparse 
-link: https://gitlab.inria.fr/qparse/qparselib
 duration: 2017 &mdash; Present
 sources: https://gitlab.inria.fr/qparse/qparselib
 organization: Inria
 ---
 
-qparse is a C++ library for automated music transcription.
+qparse is a tool for Automated Music Transcription.
 
 It converts a symbolic musical performance, 
 given as a sequence of musical events with arbitrary dates and durations 

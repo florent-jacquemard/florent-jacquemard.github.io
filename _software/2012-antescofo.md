@@ -10,6 +10,7 @@ main_dev: Arshia Cont
 Antescofo (main developper Arshia Cont) 
 is a polyphonic Score Following system for mixed music 
 live performance (involving computers and analog instruments). 
+
 This system allows for real-time automatic recognition 
 of the position in a music score and the tempo,
 from an audio stream coming from performer(s) (artificial listening module), 

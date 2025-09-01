@@ -1,12 +1,12 @@
 ---
-name: Antescofo realtime testing enrironment
+name: Antescofo Realtime Testing Environment
 duration: 2014 &mdash; 2017
 organization: Inria, Ircam
 main_dev: Clement Poncelet-Sanchez
 ---
 
-This work was realized by Clement Poncelet-Sanchez during its phd,
-in the context of the developpement of 
+This testing framework has been developed by Clement Poncelet-Sanchez during its PhD,
+in the context of the development of 
 the score-based Interactive Music System (IMS)
 [Antescofo](https://jacquema.gitlabpages.inria.fr/software/antescofo)
 by team Mutant at Ircam.
