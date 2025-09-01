@@ -1,5 +1,5 @@
 ---
-title: "Automated Music Transcription""
+title: "Automated Music Transcription"
 excerpt: "Short description of portfolio item number 1"
 image: "/images/500x300.png"
 collection: portfolio
