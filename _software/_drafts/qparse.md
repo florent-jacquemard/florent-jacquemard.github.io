@@ -10,8 +10,6 @@ we proposed in 2024 a method for building a formal correspondence between subset
 
 DRAFT 
 
-
-
 The transcription procedure is based on a prior language model  of musical scores
 
 describing the prefered music notations.
