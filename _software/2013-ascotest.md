@@ -1,7 +1,7 @@
 ---
 name: Antescofo Realtime Testing Environment
-begindate: 20140901
-enddate: 20171231
+begindate: 2014-09-01
+enddate: 2017-12-31
 organization: Inria, Ircam
 main_dev: Clement Poncelet-Sanchez
 ---

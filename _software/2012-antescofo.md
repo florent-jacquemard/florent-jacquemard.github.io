@@ -1,8 +1,8 @@
 ---
 name: Antescofo 
 link: https://www.antescofo.com
-begindate: 20129101
-enddate: 20171030
+begindate: 2012-01-01
+enddate: 2017-10-30
 organization: Inria, Ircam
 main_dev: Arshia Cont
 ---
