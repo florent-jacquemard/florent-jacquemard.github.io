@@ -1,21 +1,11 @@
 ---
-title: "Teaching experience 2"
+title: "Music and Automata"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-begindate: 2015-01-01
-enddate: 2015-01-01
-location: "City, Country"
+type: "Conference"
+permalink: /teaching/2017-ENS-Paris-Saclay
+venue: "ENS Paris-Saclay, Computer Science Department"
+begindate: 2017-09-01
+location: "Cachan, France"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Lecture (3h) for the opening semester seminar 2017 at École Normale Supérieure Paris-Saclay, on _Music and Automata_.
