@@ -47,7 +47,12 @@ layout: default
 
 		<!-- Published in and date -->
 		{% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+    	    <p> {{ page.type }}, <i>{{ page.venue }}</i>, 
+			{% if page.begindate and page.enddate %}		
+				{{ page.begindate | date: "%Y" }} &mdash; {{ page.enddate | date: "%Y" }}</p>
+			{% elsif page.begindate %}
+				{{ page.begindate | date: "%Y" }} </p>
+			{% endif %}
         {% elsif page.venue and page.date %}
           <p><i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}

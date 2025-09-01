@@ -49,7 +49,12 @@
 
 	<!-- Published in and date -->
 	{% if post.collection == 'teaching' %}
-		<p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+		<p> {{ post.type }}, <i>{{ post.venue }}</i>, 
+		{% if page.begindate and page.enddate %}
+		{{ page.begindate | date: "%Y" }} &mdash; {{ page.enddate | date: "%Y" }}</p>
+		{% elsif page.begindate %}
+		{{ page.begindate | date: "%Y" }} </p>
+		{% endif %}
 	{% elsif post.collection == 'publications' %}
 		<p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
 	{% elsif post.date %}
