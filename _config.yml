@@ -26,7 +26,7 @@ author:
   name             : "Florent Jacquemard"
   pronouns         : # example: "she/her"  
   bio              : "Research Scientist"
-  location         : "CNAM, 2 rue Conté, 75003 Paris, France"
+  location         : "CNAM, 2 rue Conté</br> 75003 Paris, France"
   employer         : "INRIA"
   uri              : "https://inria.fr"
   email            : "florent.jacquemard@inria.fr" 
