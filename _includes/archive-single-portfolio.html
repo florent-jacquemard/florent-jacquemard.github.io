@@ -10,7 +10,9 @@
 
 <!-- include.type = portfolio__item -->
 <div class="{{ include.type | default: "list" }}__item">
-	<div class="archive__item-teaser" style="float: left; width: 33%; display: inline-block">
+	<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+		<div class="archive__item-teaser" style="float: left; width: 33%; display: inline-block">
 		<img src="/images/500x300.png" alt="">
 	</div>
 	<div class="archive__item" style="padding: 10px; display: inline-block">
@@ -30,5 +32,7 @@
 			<p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
 		{% endif %}	
 	</div>
+
+	</article>
 </div>
 
