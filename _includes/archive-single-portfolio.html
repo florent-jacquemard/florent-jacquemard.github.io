@@ -17,13 +17,7 @@
 <!-- include.type = portfolio__item -->
 <div class="{{ include.type | default: "list" }}__item">
 	<div class="archive__item-teaser" style="float: left; width: 33%; display: inline-block">
-		<img src=
-		{% if post.image contains "://" %}
-         	"{{ post.image }}"
-	    {% else %}
-            "{{ post.image | prepend: "/images/" | prepend: base_path }}"
-        {% endif %}
-		alt="">
+		<img src="/images/500x300.png" alt="">
 	</div>
 	<div class="archive__item" style="padding: 10px; display: inline-block">
 		<!-- Title -->
