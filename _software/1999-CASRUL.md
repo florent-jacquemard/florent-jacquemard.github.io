@@ -7,7 +7,7 @@ enddate: 2000-12-31
 organization: Inria Nancy, LORIA
 ---
 
-I developped at Inria Nancy the first version of the system CASRUL,
+I developed at Inria Nancy the first version of the system CASRUL,
 a security protocol verification tool based on deduction rules.
 
 This implements a procedure for compiling semi-formal protocol specifications into multiset rewrite rules describing precisely the operations of the agents for the analysis of the received messages and the construction of the sent messages, as well as the faculties of the attackers. 
