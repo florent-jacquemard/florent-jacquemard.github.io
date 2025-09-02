@@ -2,7 +2,7 @@
 title: "Symbolic Weighted Visibly Pushdown Automata"
 collection: portfolio
 image: "/images/500x300.png"
-excerpt: "Short description of portfolio item number 1"
+excerpt: "Short description of portfolio item SWVPA"
 ---
 
 quantitative language models over infinite alphabets
