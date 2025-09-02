@@ -1,5 +1,5 @@
 ---
-title: "Symbolic Weighted Visibly Pushdown Automata"
+title: "Symbolic Weighted Automata"
 collection: portfolio
 image: "/images/500x300.png"
 excerpt: "Short description of portfolio item SWVPA"
