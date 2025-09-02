@@ -47,16 +47,18 @@
 	</h2>
 
 	<!-- Org -->
+	<!-- Link and Sources Repository -->
 	<p class="archive__item-teaser" itemprop="description">
 		{% if post.organization %}
 			Organization: {{ post.organization }}
 		{% endif %}
+		{% if post.link %}
+			<a href="{{ post.link }}">page of project</a>
+		{% endif %}
+		{% if post.sources %}
+			<a href="{{ post.sources }}">sources</a>
+		{% endif %}
 	</p>
-
-	<!-- Sources Repository -->
-	{% if post.sources %}
-		<p>sources: <a href="{{ post.sources }}">{{ post.sources }}</a></p>
-	{% endif %}
 
 	<!-- read time -->
 	{% if post.read_time %}
