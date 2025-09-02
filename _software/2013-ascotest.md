@@ -7,16 +7,11 @@ main_dev: Clement Poncelet-Sanchez
 ---
 
 This testing framework has been developed by Clement Poncelet-Sanchez during its PhD,
-in the context of the development of 
-the score-based Interactive Music System (IMS)
-[Antescofo](https://jacquema.gitlabpages.inria.fr/software/antescofo)
-by team Mutant at Ircam.
+in the context of the development of the score-based Interactive Music System (IMS)
+[Antescofo](https://jacquema.gitlabpages.inria.fr/software/antescofo) by team Mutant at Ircam.
 
-The general objective 
-is to provide techniques and tools to assist both programmers of 
-mixed music scores (i.e. composers) and the developers of the system itself
-in predicting statically the behavior of the IMS 
-(more specificaly, the problems of
+The general objective is to provide techniques and tools to assist both programmers of 
+mixed music scores (i.e. composers) and the developers of the system itself in predicting statically the behavior of the IMS (more specificaly, the problems of
 functional reliability and temporal predictability)
 in response to every possible musician input. 
 It should be outlined that the former are generally not experts in real-time programming, and we aim at giving them a clear view of what will be the outcome of the score that they are writing, 
@@ -27,6 +22,7 @@ and timing constraints (for audio computations) involved.
 
 We have built a framework for automated timed conformance testing, 
 based on 
+
 * a formal definition of the semantics of the language (DSL) of mixed music scores, 
 * advanced symbolic state exploration techniques (model checking).
 
