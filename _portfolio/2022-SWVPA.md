@@ -6,11 +6,9 @@ researchtype: theory
 image: "/images/SWA-crop.png"
 description: "Quantitative language models computing over infinite alphabets."
 ---
-
 We study of classes of automata and transducers processing words and trees over infinite (or large) alphabet and returning a weight value in a semiring,  and applications to quantitative parsing.
 
 With Lydia Rodriguez-de la Nava, we have studied several classes of symbolic weighted formalisms:
-
 - automata (swA), 
 - transducers (swT) and 
 - visibly pushdown extensions (swVPA, swVPT). 
