@@ -10,6 +10,7 @@
 {% endif %}
 -->
 
+<hr>
 <!-- include.type = portfolio__item -->
 <p><img src="{{ post.image }}" alt="" width=20% style="float: left; margin-right:10px;">
 <!-- Title -->
@@ -24,7 +25,7 @@
 	{% if post.description %}
 		{{ post.description | markdownify }}</br>
 	{% endif %}
-	<!-- Excerpt -->
+<!-- Excerpt -->
 	{% if post.excerpt and site.read_more != 'enabled' %}
 		{{ post.excerpt | markdownify }}
 	{% elsif post.excerpt and site.read_more == 'enabled' %}
