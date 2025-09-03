@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: default
 title: "Home"
 permalink: /
 author_profile: true
