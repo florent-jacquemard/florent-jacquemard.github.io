@@ -27,9 +27,12 @@ Formal Tree Languages, Automated Reasoning and Structured Data Processing
 <h2 class="archive__subtitle">
 Computer Music
 </h2>
-{% for post in site.portfolio %}
-	{% include archive-single-portfolio.html %}
+{% for post in site.portfolio reversed %}
+	{% if post.domain == 'music' %}
+		{% include archive-single-portfolio.html %}
+	(% endif %)
 {% endfor %}
+
 
 <!-- 
 	<div class="row">
