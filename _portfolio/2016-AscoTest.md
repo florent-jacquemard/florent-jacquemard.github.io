@@ -6,7 +6,7 @@ researchtype: application
 image: "/images/AscoTest-tight-global.png"
 description: "Automated generation of test sets for functional reliability and temporal predictability."
 ---
-Supervision of the development of a platform for conformance testing of the  real-time interactive music system (IMS) [Antescofo](software/2012-antescofo/), as part of Clément Poncelet's PhD (2013-2015).
+Supervision of the development of a platform for conformance testing of the real-time Interactive Music System (IMS) [Antescofo](software/2012-antescofo/), as part of Clément Poncelet's PhD (2013-2015).
 
 This system is used in a real-time context, in mixed music concerts involving instrumentalists and electronic devices. This use can therefore be described as *semi-critical* in that failure is not acceptable.
 
