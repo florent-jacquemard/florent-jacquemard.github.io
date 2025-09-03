@@ -13,9 +13,7 @@ redirect_from:
 - Edit Distances between strings and trees 
 - Logic for Computer Science
 
-During last years, my research project has been concerned with Computer Music and Digital Humanities, 
-more specifically with the processing of structured written music data (*digital music scores*), 
-and in particular the following problems:
+Over the past few years, my research activities have focused on _Computer Music_ and _Digital Humanities_:
 - Music Notation Processing, and Automatic Music Transcription
 - Information Retrieval in Databases of Digital Music Scores 
 - Corpora Analysis (Digital Musicology)
