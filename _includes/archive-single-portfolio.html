@@ -11,28 +11,23 @@
 -->
 
 <!-- include.type = portfolio__item -->
-<div style="position:relative; width:100%; height:200px; margin: 20px; padding: 10px;">
-	<div style="width: 30%; padding: 5px;  display: inline-block; vertical-align:top; ">
-		<img src="{{ post.image }}" alt="" width=100%>
-	</div>
-	<div style="padding: 5px; display: inline-block; vertical-align:top; ">
-		<!-- Title -->
-	 	<h3 class="archive__item-title" itemprop="headline">
-		{% if post.link %}
-			<a href="{{ post.link }}">{{ post.title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-		{% else %}
-			<a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
-		{% endif %}
-		</h3>
-		<!-- Subtitle -->
-		{% if post.description %}
-			<p class="archive__item-excerpt" itemprop="description">{{ post.description | markdownify }}</p>
-		{% endif %}
-		<!-- Excerpt -->
-		{% if post.excerpt and site.read_more != 'enabled' %}
-			<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-		{% elsif post.excerpt and site.read_more == 'enabled' %}
-			<p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></p></p>
-		{% endif %}	
-	</div>
-</div>
+<p><img src="{{ post.image }}" alt="" width=20% style="float: left; margin-right:10px;">
+<!-- Title -->
+<strong>
+	{% if post.link %}
+		<a href="{{ post.link }}">{{ post.title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+	{% else %}
+		<a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+	{% endif %}
+</strong></br>
+<!-- Subtitle -->
+	{% if post.description %}
+		{{ post.description | markdownify }}</br>
+	{% endif %}
+	<!-- Excerpt -->
+	{% if post.excerpt and site.read_more != 'enabled' %}
+		{{ post.excerpt | markdownify }}
+	{% elsif post.excerpt and site.read_more == 'enabled' %}
+		{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a>
+	{% endif %}	
+</p>
