@@ -2,7 +2,7 @@
 title: "Symbolic Weighted Automata"
 collection: portfolio
 image: "/images/SWA-crop.png"
-description: "Quantitative language models computing over infinite alphabets"
+description: "Quantitative language models computing over infinite alphabets."
 ---
 
 We study of classes of automata and transducers processing words and trees over infinite (or large) alphabet and returning a weight value in a semiring,  and applications to quantitative parsing.
