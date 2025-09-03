@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "***"
+title: "Florent"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,17 +8,17 @@ redirect_from:
 ---
 
 ## Research interests
-- **Automated Deduction**, in particular Inductive Theorem Proving, and Term Rewriting,
+- **Automated Deduction**, in particular Inductive Theorem Proving, and Term Rewriting
 - Theory of **Tree Automata**, **weighted** and unweighted, **constrained** and unconstrained
-- **Edit Distances** between strings and trees, 
-- Logic for Computer Science.
+- **Edit Distances** between strings and trees 
+- Logic for Computer Science
 
 During last years, my research project has been concerned with Computer Music and Digital Humanities, 
 more specifically with the processing of structured written music data (*digital music scores*), 
 and in particular the following problems:
-- the **creation** and **digitalisation** of music notation (automatic music transcription), 
+- the **creation** and **digitalisation** of music notation (automatic music transcription) 
 - Automatic Music **Transcription**
-- Digital Music Score and Corpora **analysis** (Digital Musicology),
+- Digital Music Score and Corpora **analysis** (Digital Musicology)
 - **Melodic Similarity** computation
 - **Information Retrieval** in collections of digital music scores
 
