@@ -1,7 +1,7 @@
 ---
 title: "Test and Verification of Realtime Interactive Music Systems"
 collection: portfolio
-domain: music
+domain: 'music'
 researchtype: application
 image: "/images/AscoTest-tight-global.png"
 description: "Automated generation of test sets for functional reliability and temporal predictability."
