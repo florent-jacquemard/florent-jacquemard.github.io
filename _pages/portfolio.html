@@ -18,7 +18,7 @@ and the second (more recently) is more concerned with applications and developme
 <h2 class="archive__subtitle">
 Formal Tree Languages, Automated Reasoning and Structured Data Processing
 </h2>
-{% for post in site.portfolio %}
+{% for post in site.portfolio reversed %}
 	{% if post.domain == 'tata' %}
 		{% include archive-single-portfolio.html %}
 	{% endif %}
