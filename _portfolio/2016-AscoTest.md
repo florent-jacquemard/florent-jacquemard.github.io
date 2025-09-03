@@ -11,8 +11,6 @@ Supervision of the development of a platform for conformance testing of the  rea
 
 This system is used in a real-time context, in mixed music concerts involving instrumentalists and electronic devices. This use can therefore be described as *semi-critical* in that failure is not acceptable.
 
-
-
 The general objective of this work is to provide techniques and tools to assist both programmers of mixed music music scores (i.e. composers) and the developers of the system itself in predicting statically the behaviour of the IMS (more specifically, the problems of functional reliability and temporal predictability) in response to every possible musician input. 
 It should be outlined that the former are generally not experts in real-time programming, and we aim at giving them a clear view of what will be the outcome of the score that they are writing,  and what are the limits of what is playable by the system. 
 These verifications cannot be done manually because of the amount of unpredictable human interactions and timing constraints (for audio computations) involved.
