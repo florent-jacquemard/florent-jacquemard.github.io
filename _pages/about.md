@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Florent"
+title: "Home"
 author_profile: true
 redirect_from: 
   - /about/
@@ -16,11 +16,9 @@ redirect_from:
 During last years, my research project has been concerned with Computer Music and Digital Humanities, 
 more specifically with the processing of structured written music data (*digital music scores*), 
 and in particular the following problems:
-- the **creation** and **digitalisation** of music notation (automatic music transcription) 
-- Automatic Music **Transcription**
-- Digital Music Score and Corpora **analysis** (Digital Musicology)
-- **Melodic Similarity** computation
-- **Information Retrieval** in collections of digital music scores
+- Music Notation Processing, and Automatic Music Transcription
+- Information Retrieval in Databases of Digital Music Scores 
+- Corpora Analysis (Digital Musicology)
 
 Formerly, I have worked on the application of the above formal methods to the verification of systems and software:
 - Interactive Music Systems, Real-Time Testing and Computer-Aided Composition at **[Ircam](https://www.ircam.fr)**, Paris (team [Mutant](http://repmus.ircam.fr/mutant)),
