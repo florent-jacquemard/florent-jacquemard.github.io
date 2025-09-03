@@ -7,8 +7,21 @@ author_profile: true
 
 {% include base_path %}
 
+
+{% for post in site.portfolio %}
+	{% if post.domain == 'tata' %}
+		{% include archive-single-portfolio.html %}
+	(% endif %)
+{% endfor %}
+
 {% for post in site.portfolio reversed %}
-	<!-- 
+	{% if post.domain == 'music' %}
+		{% include archive-single-portfolio.html %}
+	(% endif %)
+{% endfor %}
+
+
+<!-- 
 	<div class="row">
 		<div class="illustration" style="float: left; width: 33%; display: inline-block">
 			<img src="/images/500x300.png" alt="Mountains">
@@ -19,6 +32,3 @@ author_profile: true
 		</div>
 	</div>
 	-->
-	{% include archive-single-portfolio.html %}
-{% endfor %}
-

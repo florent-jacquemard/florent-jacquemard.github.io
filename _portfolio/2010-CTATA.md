@@ -1,6 +1,8 @@
 ---
 title: "Constrained Tree Automata"
 collection: portfolio
+domain: tata
+type: theory
 image: "/images/TATA.png"
 description: "Tree Automata checking syntactic equalities and disequalities of subtrees."
 ---

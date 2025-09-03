@@ -1,6 +1,8 @@
 ---
 title: "Symbolic Weighted Automata"
 collection: portfolio
+domain: tata
+type: theory
 image: "/images/SWA-crop.png"
 description: "Quantitative language models computing over infinite alphabets."
 ---
