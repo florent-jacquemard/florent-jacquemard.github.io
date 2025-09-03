@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 ## Research interests
-- **Automated Deduction**, in particular Inductive Theorem Proving, and Term Rewriting
-- Theory of **Tree Automata**, **weighted** and unweighted, **constrained** and unconstrained
-- **Edit Distances** between strings and trees 
+- Automated Deduction, in particular Inductive Theorem Proving and Term Rewriting
+- Theory of Tree Automata, weighted and unweighted, constrained and unconstrained
+- Edit Distances between strings and trees 
 - Logic for Computer Science
 
 During last years, my research project has been concerned with Computer Music and Digital Humanities, 
@@ -21,10 +21,13 @@ and in particular the following problems:
 - Corpora Analysis (Digital Musicology)
 
 Formerly, I have worked on the application of the above formal methods to the verification of systems and software:
-- Interactive Music Systems, Real-Time Testing and Computer-Aided Composition at **[Ircam](https://www.ircam.fr)**, Paris (team [Mutant](http://repmus.ircam.fr/mutant)),
-- Verification of Web data management systems and computer security at **[LSV](http://www.lsv.fr)/ENS-Cachan**, 
-- Automated Deduction and Software Verification at **[Inria Nancy](http://www.loria.fr)**, **[MPI-I](https://www.mpi-inf.mpg.de)** Saarbrücken, **[SRI International](http://www.csl.sri.com)**, Stanford,
-- Development of secure embedded software components for smartcards and payment terminals at the company **Trusted Logic**.
+- Interactive Music Systems, Real-Time Testing and Computer-Aided Composition at [Ircam](https://www.ircam.fr), Paris (team [Mutant](http://repmus.ircam.fr/mutant)),
+- Verification of Web data management systems and computer security at [LSV](http://www.lsv.fr)/ENS-Cachan, 
+- Automated Deduction and Software Verification at
+ [Inria Nancy](http://www.loria.fr), 
+ [MPI-I](https://www.mpi-inf.mpg.de) Saarbrücken, 
+ [SRI International](http://www.csl.sri.com), Stanford,
+- Development of secure embedded software components for smartcards and payment terminals at the company Trusted Logic.
 
 ## News
 - papers on pitch spelling, the problem of inferring proper note names, 
