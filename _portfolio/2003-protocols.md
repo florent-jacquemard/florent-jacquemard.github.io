@@ -2,7 +2,7 @@
 title: "Spécification et vérification de protocoles cryptographiques"
 collection: portfolio
 domain: tata
-type: theory
+type: application
 image: "/images/500x300.png"
 description: "Short description of portfolio item number 1"
 ---
