@@ -1,6 +1,6 @@
 ---
 title: "Automatic Verification of Conformance of Firewall Configurations to Security Policies"
-authors: 'Nihel Ben, Adel Bouhoula, Florent Jacquemard'
+authors: 'Nihel Ben Youssef, Adel Bouhoula, Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2009-07-01-Automatic-Verification-of-Conformance-of-Firewall-Configurations-to-Security-Policies
