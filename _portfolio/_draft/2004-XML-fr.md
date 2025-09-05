@@ -71,14 +71,14 @@ La réécriture d’arbres de rang non bornés est sujet encore peu développé,
 
 
 
-- [ ] [13] https://inria.hal.science/inria-00578916/
+- [x] [13] https://inria.hal.science/inria-00578916/
   https://arxiv.org/abs/0907.5125
   https://doi.org/10.1145/1836089.1836105 
   Florent Jacquemard and Michaël Rusinowitch 
   Rewrite-based verification of XML updates 
   In Proceedings of the 12th ACM SIGPLAN International Symposium on Principles and Practice of Declarative Programming (PPDP), PPDP ’10, pages 119–130, New York, NY, USA, 2010. ACM.
   
-- [ ] [14] https://inria.hal.science/inria-00578884
+- [x] [14] https://inria.hal.science/inria-00578884
   
   https://doi.org/10.1109/COMNET.2010.5699810
   
@@ -86,7 +86,7 @@ La réécriture d’arbres de rang non bornés est sujet encore peu développé,
   XML Access Control: from XACML to Annotated Schemas 
   Intl. Conf. on Communications and Networking (ComNet), pages 1-8, 2010.
   
-- [ ] [17] https://inria.hal.science/inria-00578926
+- [x] [17] https://inria.hal.science/inria-00578926
   
   https://doi.org/10.1109/ISCC.2009.5202309
   
@@ -94,7 +94,7 @@ La réécriture d’arbres de rang non bornés est sujet encore peu développé,
   Automatic verification of conformance of firewall configurations to security policies 
   In Proceedings of the 14th IEEE Symposium on Computers and Communications (ISCC), pages 526–531. IEEE, 2009.
   
-- [ ] [18] https://inria.hal.science/inria-00329803
+- [x] [18] https://inria.hal.science/inria-00329803
   
   https://florent-jacquemard.github.io/publication/2008-01-01-Closure-of-Hedge-Automata-Languages-by-Hedge-Rewriting
   
@@ -102,7 +102,7 @@ La réécriture d’arbres de rang non bornés est sujet encore peu développé,
   Closure of Hedge-automata languages by Hedge rewriting
   In Proceedings of the 19th International Conference on Rewriting Techniques and Applications (RTA’08), volume 5117 of Lecture Notes in Computer Science, pages 157–171, July 2008. Springer.
   
-- [ ] [RCD+11] https://www.w3.org/TR/xquery-update-30/
+- [x] [RCD+11] https://www.w3.org/TR/xquery-update-30/
   
   Jonathan Robie, Don Chamberlin, Michael Dyck, Daniela Florescu, Jim Melton, and Jérôme Siméon
   Xquery update facility 1.0
@@ -143,31 +143,31 @@ La réécriture d’arbres de rang non borné est un formalisme original, pertin
 
 - Articles dans les conférences d’informatique théorique
 
-- [ ] [41] https://florent-jacquemard.github.io/publication/2008-01-01-Closure-of-Hedge-Automata-Languages-by-Hedge-Rewriting
+- [x] [41] https://florent-jacquemard.github.io/publication/2008-01-01-Closure-of-Hedge-Automata-Languages-by-Hedge-Rewriting
   Closure of Hedge-Automata Languages by Hedge Rewriting, RTA'08
   
-- [ ] [31] https://florent-jacquemard.github.io/publication/2013-04-01-Rewrite-Closure-and-CF-Hedge-Automata
+- [x] [31] https://florent-jacquemard.github.io/publication/2013-04-01-Rewrite-Closure-and-CF-Hedge-Automata
 
-- [ ] [34] https://florent-jacquemard.github.io/publication/2011-10-01-Controlled-Term-Rewriting
+- [x] [34] https://florent-jacquemard.github.io/publication/2011-10-01-Controlled-Term-Rewriting
   Controlled Term Rewriting, FroCoS'11
 
-- [ ] [36] https://florent-jacquemard.github.io/publication/2010-07-01-Rewrite-Based-Verification-of-XML-Updates
+- [x] [36] https://florent-jacquemard.github.io/publication/2010-07-01-Rewrite-Based-Verification-of-XML-Updates
   Rewrite-Based Verification of XML Updates, PPDP'10
 
-- [ ] [37] https://florent-jacquemard.github.io/publication/2010-11-01-XML-Access-Control-from-XACML-to-Annotated-Schemas
+- [x] [37] https://florent-jacquemard.github.io/publication/2010-11-01-XML-Access-Control-from-XACML-to-Annotated-Schemas
 
   ComNet'10
 
-- [ ] [40] https://florent-jacquemard.github.io/publication/2009-07-01-Automatic-Verification-of-Conformance-of-Firewall-Configurations-to-Security-Policies
+- [x] [40] https://florent-jacquemard.github.io/publication/2009-07-01-Automatic-Verification-of-Conformance-of-Firewall-Configurations-to-Security-Policies
 
   ISCC'09
 
-- [ ] [24] https://florent-jacquemard.github.io/publication/2015-08-01-Term-Rewriting-with-Prefix-Context-Constraints-and-Bottom-Up-Strategies
+- [x] [24] https://florent-jacquemard.github.io/publication/2015-08-01-Term-Rewriting-with-Prefix-Context-Constraints-and-Bottom-Up-Strategies
   Florent Jacquemard, Yoshiharu Kojima, Masahiko Sakai. 
   Term Rewriting with Prefix Context Constraints and Bottom-Up Strategies. 
   In 25th International Conference on Automated Deduction (CADE’15), Berlin, Germany, LNCS, Springer, 2015.
   
-- [ ] [61] https://inria.hal.science/hal-03367725
+- [x] [61] https://inria.hal.science/hal-03367725
   Hubert Comon, Max Dauchet, Rémi Gilleron, Florent Jacquemard, Christoph Löding, Denis Lugiez, Sophie Tison, and Marc Tommasi
   Tree Automata Techniques and Applications. http://tata.gforge.inria.fr, 2007.
 
@@ -175,8 +175,8 @@ La réécriture d’arbres de rang non borné est un formalisme original, pertin
 
 - articles revues d’informatique théorique
   
-- [ ] [4] 
+- [x] [4] 
   https://florent-jacquemard.github.io/publication/2016-01-01-FO21-on-data-trees-data-tree-automata-and-branching-vector-addition-systems
-- [ ] [5] 
+- [x] [5] 
   https://florent-jacquemard.github.io/publication/2016-01-01-One-variable-context-free-hedge-automata
 

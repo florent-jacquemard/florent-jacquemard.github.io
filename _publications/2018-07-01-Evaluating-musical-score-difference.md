@@ -1,11 +1,11 @@
 ---
 title: "Evaluating musical score difference: a two-level comparison"
-authors: 'Francesco Foscarin, David Fiala, Florent Jacquemard, Philippe Rigaux, Virginie Thion'
+authors: 'Francesco Foscarin, Raphaël Fournier-SNiehotta, Philippe Rigaux, Florent Jacquemard'
 collection: publications
 category: conferences
 permalink: /publication/2018-07-01-Evaluating-musical-score-difference
 date: 2018-07-01
 venue: 'Proceedings of the Digital Music Research Network One-Day Workshop 2018 (DMRN+13)'
-hal: 'https://inria.hal.science/hal-01895171'
-citation: 'Francesco Foscarin, David Fiala, Florent Jacquemard, Philippe Rigaux, Virginie Thion, &quot;Gioqoso, an online Quality Assessment Tool for Music Notation&quot; In the proceedings of the Digital Music Research Network One-Day Workshop (DMRN+13), 2018.'
+hal: 'https://inria.hal.science/hal-01989029'
+citation: 'Francesco Foscarin, Raphaël Fournier-SNiehotta, Philippe Rigaux, Florent Jacquemard, &quot;Evaluating musical score difference: a two-level comparison&quot; In Proceedings of the Digital Music Research Network One-Day Workshop 2018 (DMRN+13), 2018.'
 ---

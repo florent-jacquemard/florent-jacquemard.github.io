@@ -50,62 +50,62 @@ La page de CASRUL est accessible à http://www.loria.fr/equipes/cassis/softwares
 
 
 
-- [ ] [2] https://hal.science/hal-00340140
+- [x] [2] https://hal.science/hal-00340140
   https://doi.org/10.1007/3-540-29937-8_10
 
   Olivier Michel and Florent Jacquemard 
   An analysis of a public key protocol with membranes 
   In Applications of Membrane Computing, Natural Computing Series, pages 283–302. Springer, 2006.
 
-- [ ] [4] https://florent-jacquemard.github.io/publication/2011-02-01-Rigid-Tree-Automata-and-Applications
+- [x] [4] https://florent-jacquemard.github.io/publication/2011-02-01-Rigid-Tree-Automata-and-Applications
   Florent Jacquemard, Francis Klay, and Camille Vacher 
   Rigid tree automata and applications 
   Inf. Comput., 209(3):486–512, 2011.
 
-- [ ] [5] https://florent-jacquemard.github.io/publication/2008-01-01-Tree-automata-with-equality-constraints-modulo-equational-theories
+- [x] [5] https://florent-jacquemard.github.io/publication/2008-01-01-Tree-automata-with-equality-constraints-modulo-equational-theories
   Florent Jacquemard, Michaël Rusinowitch, and Laurent Vigneron 
   Tree automata with equality constraints modulo equational theories 
   Journal of Logic and Algebraic Programming, 75(2):182–208, April 2008.
 
-- [ ] [7] https://inria.hal.science/inria-00578855
+- [x] [7] https://inria.hal.science/inria-00578855
   https://doi.org/10.1007/s10817-005-9017-7
 
   Stéphanie Delaune and Florent Jacquemard 
   Decision Procedures for the Security of Protocols with Probabilistic Encryption against Offline Dictionary Attacks 
   Journal of Automated Reasoning, 36(1-2):85-124, 2006.
 
-- [ ] [16] https://florent-jacquemard.github.io/publication/2009-04-01-Rigid-Tree-Automata
+- [x] [16] https://florent-jacquemard.github.io/publication/2009-04-01-Rigid-Tree-Automata
 
   Florent Jacquemard, Francis Klay, and Camille Vacher 
   Rigid tree automata 
   In Proceedings of the 3rd International Conference on Language and Automata Theory and Applications (LATA’09), volume 5457 of Lecture Notes in Computer Science, pages 446–457, Tarragona, Spain, April 2009. Springer.
 
-- [ ] [21] https://hal.science/inria-00579011
+- [x] [21] https://hal.science/inria-00579011
 
   https://doi.org/10.1007/11814771_45
   Florent Jacquemard, Michaël Rusinowitch, and Laurent Vigneron 
   Tree automata with equality constraints modulo equational theories 
   In Proceedings of the 3rd International Joint Conference on Automated Reasoning (IJCAR’06), volume 4130 of Lecture Notes in Artificial Intelligence, pages 557–571, August 2006. Springer-Verlag.
 
-- [ ] [23] https://inria.hal.science/inria-00579012
+- [x] [23] https://inria.hal.science/inria-00579012
 
   https://doi.org/10.1145/1030083.1030121
   Stéphanie Delaune and Florent Jacquemard
   A decision procedure for the verification of security protocols with explicit destructors 
   In Proceedings of the 11th ACM Conference on Computer and Communications Security (CCS’04), pages 278–287, October 2004. ACM Press.
 
-- [ ] [24] https://inria.hal.science/inria-00099161v1
+- [x] [24] https://inria.hal.science/inria-00099161v1
   Florent Jacquemard, Michaël Rusinowitch, and Laurent Vigneron 
   Compiling and verifying security protocols
   In Proceedings of the 7th international conference on Logic for programming and automated reasoning (LPAR), LPAR’00, pages 131–160, Berlin, Heidelberg, 2000. Springer-Verlag.
 
-- [ ] [37] https://people.irisa.fr/Stephanie.Delaune/PUBLICATIONS-HTML/b2hd-dj-unif2004.html
+- [x] [37] https://people.irisa.fr/Stephanie.Delaune/PUBLICATIONS-HTML/b2hd-dj-unif2004.html
 
   Stéphanie Delaune and Florent Jacquemard 
   Narrowing-based constraint solving for the verification of security protocols 
   In Proceedings of the 18th International Workshop on Unification (UNIF’04), Cork, Ireland, July 2004.
 
-- [ ] [38] https://inria.hal.science/inria-00579014v1
+- [x] [38] https://inria.hal.science/inria-00579014v1
   https://doi.ieeecomputersociety.org/10.1109/CSFW.2004.1310728
 
   Stéphanie Delaune and Florent Jacquemard
