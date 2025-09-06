@@ -2,18 +2,18 @@
 
 <!-- Line of links -->
 {% if post.paperurl %}
-	<a href="{{ post.paperurl }}">Access Paper</a>
+	<a class="archive__item-excerpt" href="{{ post.paperurl }}">Access Paper</a>
 {% elsif post.hal %}
-	<a href="{{ post.hal }}">Access Paper</a>
+	<a class="archive__item-excerpt" href="{{ post.hal }}">Access Paper</a>
 {% endif %}
 {% if post.pdf %}
-	<a href="{{ post.pdf }}">Download PDF</a>
+	<a class="archive__item-excerpt" href="{{ post.pdf }}">Download PDF</a>
 {% elsif post.hal %}
-	<a href="{{ post.hal }}/document">Download PDF</a>
+	<a class="archive__item-excerpt" href="{{ post.hal }}/document">Download PDF</a>
 {% endif %}
 {% if post.slides %}
-	<a href="{{ post.slides }}">Slides</a>
+	<a class="archive__item-excerpt" href="{{ post.slides }}">Slides</a>
 {% endif %}
-{% if post.bibtex %}
-	<a href="{{ post.bibtex }}">BibTeX</a>
+{% if class="archive__item-excerpt"post.bibtex %}
+	<a class="archive__item-excerpt" href="{{ post.bibtex }}">BibTeX</a>
 {% endif %}
