@@ -10,7 +10,7 @@ We study automata formalisms computing on trees of finite rank, labeled by symbo
 
 One of the first extensions of tree automata considered 
 (see this 
-[book](../../publication/2007-01-01-TATA) or this 
+[book](/publication/2007-01-01-TATA) or this 
 [survey](https://inria.hal.science/hal-00840959)) 
 consists of adding local constraints that test, during each transition, equalities (isomorphisms) and inequalities between neighboring subtrees 
 (i.e., at a bounded distance). 
@@ -22,14 +22,14 @@ with for main result closing the open problem of the exact complexity of the gro
 ([LICS'97](https://doi.ieeecomputersociety.org/10.1109/LICS.1997.614922) and 
  [IC'03](https://inria.hal.science/inria-00578859)).
 Later, we 
-[disproved](../../publication/2008-01-01-Tree-automata-with-equality-constraints-modulo-equational-theories) 
+[disproved](/publication/2008-01-01-Tree-automata-with-equality-constraints-modulo-equational-theories) 
 an old conjecture on the emptiness decision for a broader class of such automata, called reduction automata 
 (see also  this 
-[book](../../publication/2007-01-01-TATA)).
+[book](/publication/2007-01-01-TATA)).
 
 We studied an extension of these formalisms where local constraints are evaluated modulo equational theories 
 ([IJCAR'06](https://inria.hal.science/inria-00071215) and 
- [JLAP'08](../../publication/2008-01-01-Tree-automata-with-equality-constraints-modulo-equational-theories)). 
+ [JLAP'08](/publication/2008-01-01-Tree-automata-with-equality-constraints-modulo-equational-theories)). 
  Representing these automata as sets of Horn clauses, we use a paramodulation calculus with appropriate strategies (basic, ordered, with selection) 
  to establish the termination of decision algorithms. 
  [Previously](https://doi.org/10.1007/BFb0052362), 
@@ -38,19 +38,19 @@ We studied an extension of these formalisms where local constraints are evaluate
 Another approach for extending tree automata is to add global constraints, which are tested all at once at the end of an automata calculation on a tree, and consist of a combination of equality and inequality tests between subtrees at positions defined during the automata calculation. A fundamental difference with the local constraints mentioned above is that the distance between the positions tested is arbitrary. The first class of tree automata of this type was introduced under the name 
 [TAGED](https://hal.archives-ouvertes.fr/hal-00526987). 
 We studied a subclass of TAGEDs called Rigid Tree Automata 
-([LATA'09](../../publication/2009-04-01-Rigid-Tree-Automata) and 
- [IC'11](../../publication/2011-02-01-Rigid-Tree-Automata-and-Applications)), 
+([LATA'09](/publication/2009-04-01-Rigid-Tree-Automata) and 
+ [IC'11](/publication/2011-02-01-Rigid-Tree-Automata-and-Applications)), 
 which have good decision and expressive properties. 
 We have also solved the problem of void decidability for a model that strictly extends TAGED 
-([LICS'07](../../publication/2010-07-01-The-Emptiness-Problem-for-Tree-Automata-with-Global-Constraints) and 
-  [LMCS'13](../../publication/2013-01-01-Decidable-Classes-of-Tree-Automata-Mixing-Local-and-Global-Constraints-Modulo-Flat-Theories)), 
+([LICS'07](/publication/2010-07-01-The-Emptiness-Problem-for-Tree-Automata-with-Global-Constraints) and 
+  [LMCS'13](/publication/2013-01-01-Decidable-Classes-of-Tree-Automata-Mixing-Local-and-Global-Constraints-Modulo-Flat-Theories)), 
 in particular with arithmetic constraints and constraints similar to unary key constraints in databases.
 
 The two theoretical problems of the complexity of ground reducibility and the decidability of the emptiness for the TAGED class were considered difficult within the community, remained unsolved for years, and were the subject of several theses before we solved them.
 
 Finally, we proposed 
-([FOSSACS'07](../../publication/2007-03-01-Tree-Automata-with-Memory-Visibility-and-Structural-Constraints) and 
- [LMCS'08](../../publication/2008-06-01-Visibly-Tree-Automata-with-Memory-and-Constraints)) 
+([FOSSACS'07](/publication/2007-03-01-Tree-Automata-with-Memory-Visibility-and-Structural-Constraints) and 
+ [LMCS'08](/publication/2008-06-01-Visibly-Tree-Automata-with-Memory-and-Constraints)) 
  a class of tree automata (known as visible memory automata) extended by an auxiliary memory containing a tree, whose expressiveness lies between standard tree automata and context-free tree grammars. Unlike the latter, visible memory tree automata define a class of languages closed by intersection and complement, generalizing the automata of [nested words](https://doi.org/10.1145/1516512.1516518).
 
 
@@ -63,26 +63,29 @@ The formalisms presented in
 [RTA'98](https://doi.org/10.1007/BFb0052362) 
 on the one hand, and 
 [IJCAR'06](https://hal.science/inria-00579011), 
-[JLAP'08](../../publication/2008-01-01-Tree-automata-with-equality-constraints-modulo-equational-theories) and 
-[LATA'09](../../publication/2009-04-01-Rigid-Tree-Automata), [IC'11](../../publication/2011-02-01-Rigid-Tree-Automata-and-Applications) 
+[JLAP'08](/publication/2008-01-01-Tree-automata-with-equality-constraints-modulo-equational-theories) and 
+[LATA'09](/publication/2009-04-01-Rigid-Tree-Automata), 
+[IC'11](/publication/2011-02-01-Rigid-Tree-Automata-and-Applications) 
 on the other, find applications respectively in automatic deduction (see 
 [LICS'97](https://doi.ieeecomputersociety.org/10.1109/LICS.1997.614922), 
 [IC'03](https://inria.hal.science/inria-00578859), 
-[IJCAR'08](../../publication/2008-08-01-Automated-Induction-with-Constrained-Tree-Automata), 
-[JAL'12](../../publication/2012-01-01-Sufficient-Completeness-Verification-for-Conditional-and-Constrained-Term-Rewriting-Systems), 
+[IJCAR'08](/publication/2008-08-01-Automated-Induction-with-Constrained-Tree-Automata), 
+[JAL'12](/publication/2012-01-01-Sufficient-Completeness-Verification-for-Conditional-and-Constrained-Term-Rewriting-Systems), 
 [UNIF'06](https://inria.hal.science/inria-00579017), 
-[RTA'09](../../publication/2009-06-01-Unique-Normalization-for-Shallow-TRS)) 
+[RTA'09](/publication/2009-06-01-Unique-Normalization-for-Shallow-TRS)) 
 and the 
 [implementation](https://doi.org/10.1007/BFb0052362) of in the system 
-[SPASS](../../software/1997-SPASS/) 
+[SPASS](/software/1997-SPASS/) 
 and in logical verification of security protocols, 
-see [IC'11](../../publication/2011-02-01-Rigid-Tree-Automata-and-Applications) and the development of [TACE](../../software/2006-TACE/).
+see 
+[IC'11](/publication/2011-02-01-Rigid-Tree-Automata-and-Applications) and the development of 
+[TACE](/software/2006-TACE/).
 
 The automata of the class TAGED were introduced by Emmanuel Filiot, Jean-Marc Talbot, and Sophie Tison in connection with the satisfiability decision for TQL spatial logic, 
 in which queries on XML documents can be expressed. 
 Their extensions proposed in 
-[LICS'07](../../publication/2010-07-01-The-Emptiness-Problem-for-Tree-Automata-with-Global-Constraints) and 
-[LMCS'13](../../publication/2013-01-01-Decidable-Classes-of-Tree-Automata-Mixing-Local-and-Global-Constraints-Modulo-Flat-Theories) 
+[LICS'07](/publication/2010-07-01-The-Emptiness-Problem-for-Tree-Automata-with-Global-Constraints) and 
+[LMCS'13](/publication/2013-01-01-Decidable-Classes-of-Tree-Automata-Mixing-Local-and-Global-Constraints-Modulo-Flat-Theories) 
 are also well suited to the analysis of XML schemas: satisfiability, inclusion, or equivalence problems for schemas.
 
 

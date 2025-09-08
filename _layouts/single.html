@@ -62,77 +62,83 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}    
-        </header>
-        {% endunless %}
-
-        <section class="page__content" itemprop="text">
-        <p>{{ content }}</p>
-
-		<!-- Line of links -->
-		{% if page.collection == 'publications' %}
-			{% if page.paperurl %}
-				<a href="{{ page.paperurl }}">Access Paper</a>
-			{% elsif page.hal %}
-				<a href="{{ page.hal }}">Access Paper</a>
-			{% endif %}
-			{% if page.pdf %}
-				<a href="{{ page.pdf }}">Download PDF</a>
-			{% elsif page.hal %}
-				<a href="{{ page.hal }}/document">Download PDF</a>
-			{% endif %}
-			{% if page.slides %}
-				<a href="{{ page.slides }}">Slides</a>
-			{% endif %}
-			{% if page.bibtex %}
-				<a href="{{ page.bibtex }}">BibTeX</a>
-			{% endif %}
+    </header>
+    {% endunless %}
+	<!-- Image (centered) -->
+	{% if page.collection == 'portfolio' and page.image %}
+		<img src="{{ page.image }}" alt="{{ page.title }}" width=20% style="display: block; margin-left: auto; margin-right: auto;">
+	{% endif %}
+	<!-- Subtitle -->
+	{% if page.collection == 'portfolio' and page.description %}
+	<div class="page__meta">{{ page.description }}</div>
+	{% endif %}
+	<!-- Page content -->
+    <section class="page__content" itemprop="text">
+    <p>{{ content }}</p>
+	<!-- Line of links -->
+	{% if page.collection == 'publications' %}
+		{% if page.paperurl %}
+			<a href="{{ page.paperurl }}">Access Paper</a>
+		{% elsif page.hal %}
+			<a href="{{ page.hal }}">Access Paper</a>
 		{% endif %}
-
-		<!-- Recommended citation 
-        {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% endif %} -->
-		{% if page.citation %}
-			<p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+		{% if page.pdf %}
+			<a href="{{ page.pdf }}">Download PDF</a>
+		{% elsif page.hal %}
+			<a href="{{ page.hal }}/document">Download PDF</a>
 		{% endif %}
-        {% if page.link %}
-			<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
+		{% if page.slides %}
+			<a href="{{ page.slides }}">Slides</a>
 		{% endif %}
-      </section>
+		{% if page.bibtex %}
+			<a href="{{ page.bibtex }}">BibTeX</a>
+		{% endif %}
+	{% endif %}
+	<!-- Recommended citation 
+	{% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
+		<p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+	{% elsif page.citation and page.paperurl and page.slidesurl %}
+		<p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+	{% elsif page.citation and page.paperurl and page.bibtexurl %}
+		<p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+	{% elsif page.citation and page.paperurl %}
+		<p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+	{% elsif page.citation and page.slidesurl and page.bibtexurl %}
+		<p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+	{% elsif page.citation and page.slidesurl %}
+		<p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+	{% elsif page.slidesurl and page.bibtexurl %}
+		<p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+	{% elsif page.paperurl and page.bibtexurl %}
+		<p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+	{% elsif page.citation and page.bibtexurl %}
+		<p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+	{% elsif page.citation %}
+		<p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+	{% elsif page.slidesurl %}
+		<p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+	{% elsif page.bibtexurl %}
+		<p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+	{% endif %} -->
+	{% if page.citation %}
+		<p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+	{% endif %}
+	{% if page.link %}
+		<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
+	{% endif %}
+	</section>
 
-      <footer class="page__meta">
-        {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-        {% endif %}
-        {% include page__taxonomy.html %}
-      </footer>
+	<footer class="page__meta">
+	{% if site.data.ui-text[site.locale].meta_label %}
+		<h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+	{% endif %}
+	{% include page__taxonomy.html %}
+	</footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
+	{% if page.share %}{% include social-share.html %}{% endif %}
 
-      {% include post_pagination.html %}
-    </div>
+	{% include post_pagination.html %}
+	</div>
 
     {% if site.comments.provider and page.comments %}
       {% include comments.html %}

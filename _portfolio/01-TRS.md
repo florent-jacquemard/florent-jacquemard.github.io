@@ -10,10 +10,10 @@ description: "Decision problems in term rewriting, for automatic deduction and v
 For a Turing-complete computational model such as term rewriting, it is natural to ask about the decidability (in the general case or in specific cases) of certain properties, such as the accessibility of a given term from another by rewriting, strong termination (all rewriting sequences terminate), or confluence (two divergent rewriting sequences can always converge to the same term).
 
 Ground reducibility is one of the few properties that can be decided for all rewriting systems. This property is central to certain approaches to 
-[automatic inductive theorem proving](../04-ITP/). 
+[automatic inductive theorem proving](/portfolio/04-ITP/). 
 We studied its resolution by 
 [reduction](https://doi.org/10.1007/3-540-57785-8_138) to decision problems for 
-[tree automata with local constraints](../00-CTATA/) 
+[tree automata with local constraints](/portfolio/00-CTATA/) 
 with Hubert Comon and established its exact complexity (EXPTIME-completeness) later 
 [LICS'97](https://doi.ieeecomputersociety.org/10.1109/LICS.1997.614922) and 
 [IC'03](https://inria.hal.science/inria-00578859). 
@@ -22,7 +22,7 @@ Furthermore, I have resolved (negatively) the open problem of the decidability o
 [reduction](https://inria.hal.science/inria-00578875v1/) that was later improved 
 [here](https://inria.hal.science/inria-00579010). 
 Guillem Godoy and I have 
-[shown](../../publication/2009-06-01-Unique-Normalization-for-Shallow-TRS), 
+[shown](/publication/2009-06-01-Unique-Normalization-for-Shallow-TRS), 
 using tree automaton techniques, that the problem of uniqueness of normal forms, 
 which expresses that a given term rewriting system, viewed as a computational procedure, is functional, 
 is decidable for flat and linear systems and undecidable for flat and right-linear systems.
@@ -39,25 +39,25 @@ We conducted an in-depth study of the boundary between decidability and undecida
  [ICALP'99](https://inria.hal.science/inria-00098806), 
  [IJFCS'00](https://inria.hal.science/inria-00099097/)), 
  which proved to be more difficult than rigid unification. The cases of decidability were established using 
- [tree automata](../00-CTATA/) techniques.
+ [tree automata](/portfolio/00-CTATA/) techniques.
 
 Numerous studies deal with the closure of standard tree automata languages by rewriting, like this 
 [contribution](https://doi.org/10.1007/3-540-61464-8_65) during my thesis. 
 Together with Francis Klay and Camille Vacher 
-([LATA'09](../../publication/2009-04-01-Rigid-Tree-Automata) and 
- [IC'11](../../publication/2011-02-01-Rigid-Tree-Automata-and-Applications)), 
+([LATA'09](/publication/2009-04-01-Rigid-Tree-Automata) and 
+ [IC'11](/publication/2011-02-01-Rigid-Tree-Automata-and-Applications)), 
  we analyzed the closure of rigid tree automata by rewriting, with an algorithm for deciding membership in this closure. 
  We also studied the problem of regular model checking in the case of applying rewriting with specific strategies. 
  With Andrea Gascon and Guillem Godoy, 
  we have shown the 
- [unexpected result](../../publication/2008-07-01-Closure-of-Tree-Automata-Languages-under-Innermost-Rewriting) 
+ [unexpected result](/publication/2008-07-01-Closure-of-Tree-Automata-Languages-under-Innermost-Rewriting) 
  that the application of the innermost strategy, 
  which is analogous to call-by-value in functional languages, 
  gives better results for regular model checking than standard rewriting: 
  the closure of a tree automaton language by a flat rewriting system is a tree automaton language with local constraints of a simple type, having good properties. 
 
 We also studied with Masahiko Sakai and Yoshiharu Kojima the 
-[control](../../publication/2011-10-01-Controlled-Term-Rewriting) 
+[control](/publication/2011-10-01-Controlled-Term-Rewriting) 
 of term rewriting by contextual conditions expressed by tree automata, 
 i.e., the selection of rewriting positions using automata computation. 
 This study was motivated by the problems of analyzing updates and XML access control policies presented, insofar as in practice, 

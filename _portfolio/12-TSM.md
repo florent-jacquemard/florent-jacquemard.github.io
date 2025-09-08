@@ -13,14 +13,14 @@ In Computer Science, timings are generally represented by numerical values: floa
 Written music notation is however a symbolic format, where notes’ durations are expressed with a small set of symbols, corresponding to durations defined by successive divisions (whole notes, half notes etc) and combined with some constructions (ties, dots, tuplets…). The digital encodings of music scores, either text or XML, are also symbolic. However, they structure their musical content essentially sequentially, despite the hierarchical organisation of the written music content in common notation (with horizontal and vertical grouping of events). 
 
 In the IR that we are proposing, implemented on the 
-[TSM library](../../software/2022-TSM), 
+[TSM library](/software/2022-TSM), 
 the temporal data of written music content is represented in the form of DAGs (shared node trees), whose branches correspond to divisions of time intervals.
 Such tree-like representations are common in the fields of musicological analysis and musical composition assistance tools 
 (see e.g. these articles published at 
-[MCM'15](../../publication/2015-06-01-A-Structural-Theory-of-Rhythm-Notation-based-on-Tree-Representations-and-Term-Rewriting), 
-[MEC'15](../../publication/2015-05-01-Towards-an-Equational-Theory-of-Rhythm-Notation), 
-[TENOR'17](../../publication/2017-05-01-Generating-equivalent-rhythmic-notations-based-on-rhythm-tree-languages) or in the 
-[IFIP WG 1.6 on term rewriting](../../publication/2014-07-01-Rhythm-Tree-Rewriting)). 
+[MCM'15](/publication/2015-06-01-A-Structural-Theory-of-Rhythm-Notation-based-on-Tree-Representations-and-Term-Rewriting), 
+[MEC'15](/publication/2015-05-01-Towards-an-Equational-Theory-of-Rhythm-Notation), 
+[TENOR'17](/publication/2017-05-01-Generating-equivalent-rhythmic-notations-based-on-rhythm-tree-languages) or in the 
+[IFIP WG 1.6 on term rewriting](/publication/2014-07-01-Rhythm-Tree-Rewriting)). 
 In the case of our model, they allow the use of formal tools such as rewriting or formal languages formalisms for processing and reasoning on digital musical scores.
 
 The Tree-structured Score Model (TSM) is available as a C++ library and a Python module. It allows the construction of digital musical scores, their transformation, 

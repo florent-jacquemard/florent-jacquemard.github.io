@@ -14,7 +14,7 @@ facing major challenges.
 
 Some ITP approaches, in the case of equational theories, work by attempting to derive an inconsistency from a set of equations and a conjecture, using general automatic deduction techniques (whose goal is to establish the validity of conjectures in all structures satisfying a theory). These automatic approaches do not use explicit recurrence schemes, so they are sometimes referred to as **inductionless induction** 
 (see [this survey](https://www.oreilly.com/library/view/handbook-of-automated/9780444508133/B9780444508133500163_1.xhtml) for an overview of these techniques). 
-Ground reducibility, as property that [we have studied](../00-CTATA/), is an example of criterion for inconsistency.
+Ground reducibility, as property that [we have studied](/portfolio/00-CTATA/), is an example of criterion for inconsistency.
 
 Another family of methods for automating ITP uses recurrence patterns that are computed automatically for proofs, 
 like the provers 
@@ -28,7 +28,7 @@ like the provers
 Generalizing a former idea from 
 [Adel Bouhoula and Jean-Pierre Jouannaud](https://doi.org/10.1006/inco.2001.3036), 
 we have proposed with the former at 
-[IJCAR'08](../../publication/2008-08-01-Automated-Induction-with-Constrained-Tree-Automata) 
+[IJCAR'08](/publication/2008-08-01-Automated-Induction-with-Constrained-Tree-Automata) 
 a very general framework in which recurrence schemes are tree automata with local constraints. 
 They are used in proofs as grammars, i.e., as tree generators replacing non-terminals, 
 intuitively to move from case \\( n \\) to case \\( n + 1\\) in an induction step.
@@ -40,7 +40,7 @@ The above ITP procedure applies to specifications written in a highly expressive
 It is presented as a set of inference rules whose soundness and refutational completeness is formally proved. 
 Refutational completeness (every false conjecture will be disproved) is particularly useful for finding flaws in critical systems (as counter-examples).  
 The key to its generality, and the automation, is the use of constrained tree automata. 
-The trade-off is that these procedures rely on decision problems for these automata models, which are not easy to establish and even more difficult to implement (see this [research topic](..//00-CTATA/)).
+The trade-off is that these procedures rely on decision problems for these automata models, which are not easy to establish and even more difficult to implement (see this [research topic](/portfolio/00-CTATA/)).
 
 Adel Bouhoula and Miki Hermann have proposed a new ITP procedure at 
 [IJCAI'24](https://doi.org/10.24963/ijcai.2024/361) that allows to perform 

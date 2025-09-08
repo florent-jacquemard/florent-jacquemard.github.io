@@ -7,7 +7,7 @@ image: "/images/AMT.png"
 description: "Conversion of a performance into music notation."
 ---
 We are developing an approach for the transcription of MIDI recordings of performances into digital music scores, based on an abstract intermediate representation of music notation as trees, and on advanced quantitative parsing algorithm. It is implemented into the 
-[qparse](../../software/2017-qparse/) library, 
+[qparse](/software/2017-qparse/) library, 
 and experiments have shown very good results on challenging datasets.  
 
 Music transcription is the conversion of a performance into a score. 
@@ -19,42 +19,42 @@ It is also the target format for music transcription tools that process audio si
 with which M2S approaches are therefore complementary, with a view to global transcription (Audio-to-Score).
 
 We are developing an 
-[approach](../../publication/2019-06-01-A-Parse-based-Framework-for-Coupled-Rhythm-Quantization-and-Score-Structuring) 
+[approach](/publication/2019-06-01-A-Parse-based-Framework-for-Coupled-Rhythm-Quantization-and-Score-Structuring) 
 based on formal languages for M2S transcription, relying on a 
-[hierarchical representation](../12-TSM/) of musical notation similar to rhythm trees (see these articles presented at 
-[MCM'15](../../publication/2015-06-01-A-Structural-Theory-of-Rhythm-Notation-based-on-Tree-Representations-and-Term-Rewriting), 
-[MEC'15](../../publication/2015-05-01-Towards-an-Equational-Theory-of-Rhythm-Notation), 
-[TENOR'17](../../publication/2017-05-01-Generating-equivalent-rhythmic-notations-based-on-rhythm-tree-languages) or in the 
-[IFIP WG 1.6 on term rewriting](../../publication/2014-07-01-Rhythm-Tree-Rewriting)), 
+[hierarchical representation](/portfolio/12-TSM/) of musical notation similar to rhythm trees (see these articles presented at 
+[MCM'15](/publication/2015-06-01-A-Structural-Theory-of-Rhythm-Notation-based-on-Tree-Representations-and-Term-Rewriting), 
+[MEC'15](/publication/2015-05-01-Towards-an-Equational-Theory-of-Rhythm-Notation), 
+[TENOR'17](/publication/2017-05-01-Generating-equivalent-rhythmic-notations-based-on-rhythm-tree-languages) or in the 
+[IFIP WG 1.6 on term rewriting](/publication/2014-07-01-Rhythm-Tree-Rewriting)), 
 following the principle of proportional definition of durations in music (1 half note = 2 quarter notes, 1 quarter note = 2 eighth notes, etc.). 
 A weighted tree automaton describes an a priori notation model, associating each rhythm tree with a notational complexity value in a commutative semi-ring. 
 This automaton can be learned on a corpus of scores using grammatical inference techniques 
-([SMC 2019](../../publication/2019-05-01-Modeling-and-Learning-Rhythm-Structure)). 
+([SMC 2019](/publication/2019-05-01-Modeling-and-Learning-Rhythm-Structure)). 
 Given a sequential, unstructured performance as input, 
 a so-called 1-best-parsing algorithm searches for a parsing tree that minimizes both its complexity value in the a priori language 
 and the deviation from the corresponding rhythm performance. 
 From this parse tree, an intermediate representation (IR) is constructed in the 
-[TSM model](../../software/2022-TSM) that we are developing. 
+[TSM model](/software/2022-TSM) that we are developing. 
 After a number of post-processing steps, in particular by rewriting, the IR is converted into a musical score in XML encoding.
 
 ## Development
 
 The development in C++ of the transcription procedure briefly described above 
-(library [qparse](../../software/2017-qparse/)) \
+(library [qparse](/software/2017-qparse/)) \
 began at Inria Paris in 2017 and continued in collaboration with 
 Philippe Rigaux's team at Cedric/CNAM and 
 Masahiko Sakai's team at Nagoya University ([Yamaha grant](projects/2017-Yamaha/) and [JSPS project](projects/2020-JSPS/) with JAIST).
 
-A [previous approach](../../publication/2016-09-01-A-Supervised-Approach-for-Rhythm-Transcription-Based-on-Tree-Series-Enumeration), 
-preliminary to [qparse](../../software/2017-qparse/) in terms of efficiency and functionality, 
-was developed with Adrien Ycart and Jean Bresson at Ircam in 2015-16 (LISP library [RQ](../../software/2016-RQ/) for OpenMusic). 
-[RQ](../../software/2016-RQ/) is 
-[oriented](../../publication/2017-07-01-Interactive-Music-Transcription-based-on-Rhythm-Tree-Languages) towards composition assistance, 
+A [previous approach](/publication/2016-09-01-A-Supervised-Approach-for-Rhythm-Transcription-Based-on-Tree-Series-Enumeration), 
+preliminary to [qparse](/software/2017-qparse/) in terms of efficiency and functionality, 
+was developed with Adrien Ycart and Jean Bresson at Ircam in 2015-16 (LISP library [RQ](/software/2016-RQ/) for OpenMusic). 
+[RQ](/software/2016-RQ/) is 
+[oriented](/publication/2017-07-01-Interactive-Music-Transcription-based-on-Rhythm-Tree-Languages) towards composition assistance, 
 offering an interactive approach where the user is presented with transcription solutions listed in an orderly manner, 
 thanks to a graphical interface integrated into OpenMusic. 
 The development of RQ began during Adrien Ycart's Master's research in 2015 at Ircam, with Ycart doing most of the development, 
 co-supervised by Jean Bresson (lead developer of OpenMusic), 
-and continued with an internal project ([UPI](../../projects/2016-RQ/)) at Ircam on the subject.
+and continued with an internal project ([UPI](/projects/2016-RQ/)) at Ircam on the subject.
 
 ## Originality and difficulty
 
@@ -65,19 +65,19 @@ The main originality of our approach to M2S transcription is the direct producti
 Our approach uses *parsing* (converting an unstructured sequence into a tree structure), processing the two steps above—quantifying durations and structuring notation—in tandem, avoiding error propagation, for more relevant results, particularly in the case of complex rhythms. Another advantage of parsing is that it establishes global relationships between arbitrarily distant events, typically linked to the metric structure. This long-term view is lacking in sequential statistical models.
 
 This approach relies in particular on a tree-structured 
-[abstract intermediate representation](../12-TSM/) of music notation, 
+[abstract intermediate representation](/portfolio/12-TSM/) of music notation, 
 and on tool from formal language theory (weighted tree automata) to grasp the deep structure of music notation. 
-To summarize, roughly, [qparse](../../software/2017-qparse/) transcribes by parsing the sequential input against an a priori hierarchical language model, 
+To summarize, roughly, [qparse](/software/2017-qparse/) transcribes by parsing the sequential input against an a priori hierarchical language model, 
 describing a preferred style of music notation.
 
 ## Validation
 
-Evaluations of [qparse](../../software/2017-qparse/) were performed on a database of scores consisting of monophonic excerpts (one note at a time) from the classical repertoire, with varying rhythmic complexity. They demonstrated fast processing times (around 100 ms for a one-page score) and good results, particularly in the case of complex rhythms, grace notes, and rests, characteristics that tend to cause difficulties for other systems, especially commercial ones.
+Evaluations of [qparse](/software/2017-qparse/) were performed on a database of scores consisting of monophonic excerpts (one note at a time) from the classical repertoire, with varying rhythmic complexity. They demonstrated fast processing times (around 100 ms for a one-page score) and good results, particularly in the case of complex rhythms, grace notes, and rests, characteristics that tend to cause difficulties for other systems, especially commercial ones.
 
 It was also used for the transcription into music scores in the [MEI encoding](https://music-encoding.org) of human performances on electronic drum kits, captured in MIDI files, of Magenta's [Groove MIDI Dataset](https://magenta.withgoogle.com/datasets/groove). All the 440 beats files of this dataset were successfully transcribed, without pre-training or manual adjustments, covering various genres, time signatures, tempi and of length up to 260 measures.
 
 ## Dissemination
 
-[RQ](../../software/2016-RQ/) has been evaluated by composers, taught in composition courses at Ircam, and used for writing pieces, such as this creation by Alessandro Ratoci for the 2016 [Ravenna Festival](https://www.ravennafestival.org/en/events/?qy=2016).
+[RQ](/software/2016-RQ/) has been evaluated by composers, taught in composition courses at Ircam, and used for writing pieces, such as this creation by Alessandro Ratoci for the 2016 [Ravenna Festival](https://www.ravennafestival.org/en/events/?qy=2016).
 
-[qparse](../../software/2017-qparse/) is currently a set of command-line prototypes. The ultimate goal is to integrate it as a plugin into music notation software (Sibelius, Dorico, or the free software MuseScore, etc.) or a DAW.
+[qparse](/software/2017-qparse/) is currently a set of command-line prototypes. The ultimate goal is to integrate it as a plugin into music notation software (Sibelius, Dorico, or the free software MuseScore, etc.) or a DAW.

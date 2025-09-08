@@ -7,7 +7,7 @@ image: "/images/AscoTest-tight-global.png"
 description: "Automated generation of test sets for functional reliability and temporal predictability."
 ---
 Supervision of the development of a platform for conformance testing of the real-time Interactive Music System (IMS) 
-[Antescofo](../../software/2012-antescofo/), as part of Clément Poncelet's PhD (2013-2015).
+[Antescofo](/software/2012-antescofo/), as part of Clément Poncelet's PhD (2013-2015).
 
 This system is used in a real-time context, in mixed music concerts involving instrumentalists and electronic devices. This use can therefore be described as *semi-critical* in that failure is not acceptable.
 
@@ -30,8 +30,8 @@ There are two main use cases of this framework:
 2. Test on toy scores in order to debug some particular feature of the system.
 
 This work has been presented in the following publications:
-- [JNMR'16](../../publication/2016-01-01-An-Automatic-Test-Framework-for-Interactive-Music-Systems) 
-- [SCP'16](../../publication/2016-01-01-Model-Based-Testing-for-Building-Reliable-Realtime-Interactive-Music-Systems) 
-- [ACM SAC'15](../../publication/2015-04-01-Model-Based-Testing-of-an-Interactive-Music-System)
-- [ICMC/SMC'14](../../publication/2014-09-01-Test-Methods-for-Score-Based-Interactive-Music-Systems)
+- [JNMR'16](/publication/2016-01-01-An-Automatic-Test-Framework-for-Interactive-Music-Systems) 
+- [SCP'16](/publication/2016-01-01-Model-Based-Testing-for-Building-Reliable-Realtime-Interactive-Music-Systems) 
+- [ACM SAC'15](/publication/2015-04-01-Model-Based-Testing-of-an-Interactive-Music-System)
+- [ICMC/SMC'14](/publication/2014-09-01-Test-Methods-for-Score-Based-Interactive-Music-Systems)
 

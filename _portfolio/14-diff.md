@@ -18,8 +18,8 @@ Our initial goal was to implement for digital music scores a utility similar to 
 We are developing several approaches (see systems description [here](soft/2019-scorediff)). In all approaches, the comparison is performed at the granularity level of measures (bars), which are the analagous, for music scores, of lines of text files. More precisely, in a first step, we compute a Longest Common Subsequence (LCS) of bars in the two files. Then, the second step is a comparison at the granularity level of notes or chords in side bars (the analogous of characters in text files), based on dedicated combinations of edit-distances between strings and trees applied to abstract Intermediate Representation (IR) of score content used for disambiguation and decoupling comparison from the concrete file encoding. 
 
 In a first approach presented in this 
-[paper](../../publication/2019-11-01-A-diff-procedure-for-music-score-files) and this 
-[demo](../../publication/2019-11-01-Computation-and-Visualization-of-Differences-between-two-XML-Music-Score-Files), 
+[paper](/publication/2019-11-01-A-diff-procedure-for-music-score-files) and this 
+[demo](/publication/2019-11-01-Computation-and-Visualization-of-Differences-between-two-XML-Music-Score-Files), 
 we use an IR close to the model of the toolkit [Music21](https://www.music21.org) (itself close to [MusicXML](https://www.musicxml.com) documents structures).
 
-In a more recent approach in development, we use the same [Tree Score Model](../12-TSM/) that we are using for transcription.
+In a more recent approach in development, we use the same [Tree Score Model](/portfolio/12-TSM/) that we are using for transcription.
