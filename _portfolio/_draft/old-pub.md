@@ -81,12 +81,53 @@
 
 
 
+- [ ] LPAR'00
+  https://inria.hal.science/inria-00099161v1
+
+- [ ] LPAR'00
+  https://inria.hal.science/inria-00099161v1
+
+
+
+- [ ] CSF'04
+  https://doi.ieeecomputersociety.org/10.1109/CSFW.2004.1310728
+
+
+
+- [ ] UNIF'04
+  https://people.irisa.fr/Stephanie.Delaune/PUBLICATIONS-HTML/b2hd-dj-unif2004.html
+
+
+
+- [ ] CCS'04
+  https://doi.org/10.1145/1030083.1030121 
+
+
+
+- [ ] JAT'06
+  https://doi.org/10.1007/s10817-005-9017-7
+
+
+
 - [ ] https://florent-jacquemard.github.io//publication/2008-01-01-Tree-automata-with-equality-constraints-modulo-equational-theories
 
 
 
 - [ ] IJCAR'06
   https://inria.hal.science/inria-00071215
+
+
+
+- [ ] IJCAR'06
+  https://doi.org/10.1007/11814771_45
+
+
+
+- [ ] membrane computations
+  https://doi.org/10.1007/3-540-29937-8_10
+
+
+
 - [ ] JLAP'08 
   publication/2008-01-01-Tree-automata-with-equality-constraints-modulo-equational-theories
 

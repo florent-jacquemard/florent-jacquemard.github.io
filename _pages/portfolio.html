@@ -15,7 +15,7 @@ and the second (more recently) is more concerned with applications and developme
 
 <p>The link between both activities is the processing of tree structured data.</p>
 
-<h2 class="archive__subtitle">
+<h2>
 Formal Tree Languages, Automated Reasoning and Structured Data Processing
 </h2>
 {% for post in site.portfolio %}
@@ -24,10 +24,10 @@ Formal Tree Languages, Automated Reasoning and Structured Data Processing
 	{% endif %}
 {% endfor %}
 
-<h2 class="archive__subtitle">
+<h2>
 Computer Music and Music Notation Processing
 </h2>
-{% for post in site.portfolio reversed %}
+{% for post in site.portfolio %}
 	{% if post.domain == 'music' %}
 		{% include archive-single-portfolio.html %}
 	{% endif %}

@@ -26,3 +26,13 @@ Le problème de la complexité exacte de la réductibilité inductive était con
 Les problèmes de l’accessibilité et de la confluence étaient conjecturés décidables pour les systèmes de réécriture plats avant [8]. La fermeture du problème (par la négative) a permis, de l’avis de collègues de la communauté, de débloquer des travaux et d’aller de l’avant vers d’autres problèmes.
 
 L’étude de la réécriture contrôlée dans [11] a été motivée par les problèmes d’analyse d’updates et politiques de contrôle d’accès XML présentés dans la fiche 4, dans la mesure où en pratique, les positions d’application d’updates sont généralement sélectionnées par des expressions XPath [RCD+11]. C’est un sujet intéressant du point de vue des applications sur lequel il reste de nombreux problème à résoudre.
+
+
+
+
+
+- [ ] [33]
+  Closure of tree automata languages under innermost rewriting. 
+  Adrià Gascón, Guillem Godoy, and Florent Jacquemard. 
+  Proceedings of the 8th International Workshop on Reduction Strategies in Rewriting and Programming (WRS’08), volume 237 of Electronic Notes in Theoretical Computer Science,
+  pages 23–38, Elsevier Science Publishers, 2008.

@@ -17,5 +17,5 @@ They combine the respective extensions of their symbolic and weighted counterpar
 
 Properties have been shown, such as of closure by composition, the computation of transducer-defined distances between nested words and languages, and we have also proposed a PTIME 1-best search algorithm for swVPA. 
 
-[These results](publication/2022-06-01-Symbolic-Weighted-Language-Models-Quantitative-Parsing-and-Automated-Music-Transcription) are applied to solve in PTIME a variant of parsing over infinite alphabets called *quantitative parsing*. This problem, the above best search algorithm and composition properties are the base of the techniques that we are using in our work on [Automated Music Transcription](portfolio/2025-AMT/). 
+[These results](../../publication/2022-06-01-Symbolic-Weighted-Language-Models-Quantitative-Parsing-and-Automated-Music-Transcription) are applied to solve in PTIME a variant of parsing over infinite alphabets called *quantitative parsing*. This problem, the above best search algorithm and composition properties are the base of the techniques that we are using in our work on [Automated Music Transcription](../10-AMT/). 
 

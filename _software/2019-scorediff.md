@@ -3,7 +3,7 @@ name: scorediff
 begindate: 2019-01-01
 enddate: 2019-12-31
 sources: https://github.com/fosfrancesco/music-score-diff
-permalink: /soft/2019-scorediff
+permalink: /software/2019-scorediff
 organization: CNAM and Inria
 ---
 
