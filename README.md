@@ -16,7 +16,18 @@ with GitHub Pages template Academic Pages
 - wiki: https://github.com/academicpages/academicpages.github.io/wiki
 
 
+## Mirror florento.github.io
+florento.github.io is a remote 
+see
+```
+git remote -v
+```
 
+to push changes from this repository into florento.github.io
+```
+git push florento HEAD:main
+```
+this will update the page https://florento.github.io
 
 
 
