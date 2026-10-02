@@ -1,13 +1,14 @@
 ---
 permalink: /
 title: ""
+title_hide: true
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## Research interests
+## Research inteerests
 _Computer Music_ and _Digital Humanities_:
 - Music Notation Processing, and Automatic Music Transcription
 - Information Retrieval in Databases of Digital Music Scores 
