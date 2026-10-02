@@ -8,15 +8,16 @@ redirect_from:
 ---
 
 ## Research interests
-- Automated Deduction, in particular Inductive Theorem Proving and Term Rewriting
-- Theory of Tree Automata, weighted and unweighted, constrained and unconstrained
-- Edit Distances between strings and trees 
-- Logic for Computer Science
-
-Over the past few years, my research activities have focused on _Computer Music_ and _Digital Humanities_:
+_Computer Music_ and _Digital Humanities_:
 - Music Notation Processing, and Automatic Music Transcription
 - Information Retrieval in Databases of Digital Music Scores 
 - Corpora Analysis (Digital Musicology)
+
+My early research topics focused primarily on Theoretical Computer SAcience:
+- Theory of Tree Automata, weighted and unweighted, constrained and unconstrained
+- Automated Deduction, in particular Inductive Theorem Proving and Term Rewriting
+- Edit Distances between strings and trees 
+- Logic for Computer Science
 
 Formerly, I have worked on the application of the above formal methods to the verification of systems and software:
 - Interactive Music Systems, Real-Time Testing and Computer-Aided Composition at [Ircam](https://www.ircam.fr), Paris (team [Mutant](http://repmus.ircam.fr/mutant)),
@@ -28,6 +29,9 @@ Formerly, I have worked on the application of the above formal methods to the ve
 - Development of secure embedded software components for smartcards and payment terminals at the company Trusted Logic.
 
 ## News
+- tool [TSM-diff](https://florent-jacquemard.github.io/software/2026-TSMdiff) for comparing digital music scores in various encoding, 
+  the TSM intermediate representation and on a tree-traversal algorithm, presented at [ICCCM](publication/2025-09-21-Music-Score-Comparison-based-TSM) and [ISMIR-LBD](publication/2026-11-09-Parallel-Tree-Traversal-Music-Score-Comparison).
+
 - papers on pitch spelling, the problem of inferring proper note names, 
   in collaboration with Augustin Bouquillard, at 
   [TENOR'24](https://florent-jacquemard.github.io/publication/2024-04-01-Engraving-Oriented-Joint-Estimation-of-Pitch-Spelling-and-Local-and-Global-Keys) and 
