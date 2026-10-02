@@ -13,13 +13,13 @@ _Computer Music_ and _Digital Humanities_:
 - Information Retrieval in Databases of Digital Music Scores 
 - Corpora Analysis (Digital Musicology)
 
-My early research topics focused primarily on Theoretical Computer SAcience:
+Formerly, my research topics focused primarily on Theoretical Computer Science:
 - Theory of Tree Automata, weighted and unweighted, constrained and unconstrained
 - Automated Deduction, in particular Inductive Theorem Proving and Term Rewriting
 - Edit Distances between strings and trees 
 - Logic for Computer Science
 
-Formerly, I have worked on the application of the above formal methods to the verification of systems and software:
+and the application of the above formal methods to the verification of systems and software:
 - Interactive Music Systems, Real-Time Testing and Computer-Aided Composition at [Ircam](https://www.ircam.fr), Paris (team [Mutant](http://repmus.ircam.fr/mutant)),
 - Verification of Web data management systems and computer security at [LSV](http://www.lsv.fr)/ENS-Cachan, 
 - Automated Deduction and Software Verification at
@@ -35,7 +35,8 @@ Formerly, I have worked on the application of the above formal methods to the ve
 - papers on pitch spelling, the problem of inferring proper note names, 
   in collaboration with Augustin Bouquillard, at 
   [TENOR'24](https://florent-jacquemard.github.io/publication/2024-04-01-Engraving-Oriented-Joint-Estimation-of-Pitch-Spelling-and-Local-and-Global-Keys) and 
-  [CMMR'25](https://florent-jacquemard.github.io/publication/2025-11-03-Pitch-Spelling-Jazz-Lead-Sheets-and-Solo-Transcriptions) (Nov. 2025).
+  [CMMR'25](https://florent-jacquemard.github.io/publication/2025-11-03-Pitch-Spelling-Jazz-Lead-Sheets-and-Solo-Transcriptions) (Nov. 2025), 
+  and [extended version](publication/2025-11-03-Pitch-Spelling-extended) for CMMR post-proceedings in 2026.
 
 - fully automated transcription, with qparse, in [MEI](https://music-encoding.org), of 442 recordings of electronic drum-kits 
   of Google Magenta's [Groove MIDI Dataset](https://magenta.withgoogle.com/datasets/groove), 
