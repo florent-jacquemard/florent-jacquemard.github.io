@@ -23,8 +23,8 @@ Formerly, I have worked on the application of the above formal methods to the ve
 - Verification of Web data management systems and computer security at [LSV](http://www.lsv.fr)/ENS-Cachan, 
 - Automated Deduction and Software Verification at
  [Inria Nancy](http://www.loria.fr), 
- [MPI-I](https://www.mpi-inf.mpg.de) Saarbrücken, 
- [SRI International](http://www.csl.sri.com), Stanford,
+  [MPI-I](https://www.mpi-inf.mpg.de) Saarbrücken, 
+  [SRI International](http://www.csl.sri.com), Stanford,
 - Development of secure embedded software components for smartcards and payment terminals at the company Trusted Logic.
 
 ## News
@@ -53,9 +53,7 @@ of Lydia Rodriguez de la Nava.
 more to come...
 
 ## Contact info
-Cedric, CNAM, 2 rue Conté, 75003 Paris, France
-
-Office 37.1.40
+INRIA 48 Rue Barrault, 75013 Paris
 
 tel: +33 6 50 08 84 53
 
