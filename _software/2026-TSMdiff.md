@@ -2,7 +2,7 @@
 name: TSMdiff
 begindate: 2026-01-01
 enddate: 2026-12-31
-sources: https://tsm-diff-lbd-7a7e2a.gitlab.io
+link: https://tsm-diff-lbd-7a7e2a.gitlab.io
 permalink: /software/2026-TSMdiff
 organization: Inria
 ---
