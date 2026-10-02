@@ -8,21 +8,12 @@ author_profile: true
 {% include base_path %}
 
 <p>
-I have been working on two distinct research domains: 
-the first (chronologically) is theoretical,
-and the second (more recently) is more concerned with applications and development.
+I have worked in two distinct areas of research:
+the first (chronologically) involves theoretical computer science, logic and automata theory,
+and the second focuses on applications and development in computer music.
 </p>
 
 <p>The link between both activities is the processing of tree structured data.</p>
-
-<h2>
-Formal Tree Languages, Automated Reasoning and Structured Data Processing
-</h2>
-{% for post in site.portfolio %}
-	{% if post.domain == 'tata' %}
-		{% include archive-single-portfolio.html %}
-	{% endif %}
-{% endfor %}
 
 <h2>
 Computer Music and Music Notation Processing
@@ -33,6 +24,14 @@ Computer Music and Music Notation Processing
 	{% endif %}
 {% endfor %}
 
+<h2>
+Formal Tree Languages, Automated Reasoning and Structured Data Processing
+</h2>
+{% for post in site.portfolio %}
+{% if post.domain == 'tata' %}
+{% include archive-single-portfolio.html %}
+{% endif %}
+{% endfor %}
 
 <!-- 
 	<div class="row">
