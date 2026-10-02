@@ -4,9 +4,10 @@ title: "Home"
 title_hide: true
 author_profile: true
 ---
-# Welcome
+
 
 ## Research interests
+
 _Computer Music_ and _Digital Humanities_:
 - Music Notation Processing, and Automatic Music Transcription
 - Information Retrieval in Databases of Digital Music Scores 
